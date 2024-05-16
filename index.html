@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction:column;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+        header{
+            background-color: rgb(32, 32, 32);
+            min-height: 10vh;
+            width: 100%;
+            flex: 1;
+            color: white;
+            position:fixed;
+            align-self: center;
+            margin-top: 0vh;
+            justify-self: left;
+            padding: 0;
+        }
+        footer{
+            background-color: grey;
+            min-height: 10vh;
+            width: 100%;
+            flex: 1;
+            color: white;
+            margin-top: 90vh;
+            position: fixed;
+            align-self: center;
+            justify-self:baseline;
+        }
+        main{
+            display: flex;
+            width: 100%;
+            flex: 1;
+        }
+        #topic{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #test1{
+            background-color: orangered;
+            display:block;
+            width: 100%;
+            padding: 0;
+        }
+        #end_footer{
+            font-size: 30px;
+            font-weight: bold;
+            text-align:center;
+            height: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p id="topic">
+            測試用框架
+        </p>
+    </header>
+    <main>
+        <script src="./script.js"></script>
+    </main>
+    <footer id="footer">
+        <p id="end_footer">測試用框架</p>
+    </footer>
+</body>
+</html>
