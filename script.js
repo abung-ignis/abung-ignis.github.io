@@ -96,4 +96,94 @@
 
 //如果?做a:做b
 //三元運算式
-(1<=3)?console.log('a'):console.log('b')
+//可以當成if else
+//(1<=3)?console.log('a'):console.log('b')
+
+//+= -= *= /= %= **都能用 (和python一樣)
+
+//基本if flow
+// var strs = "巴啦馬魯魯"
+// strs==="歐趴"?console.log("帶你去歐洲玩"):console.log("禁足")
+// if (strs==="歐趴"){
+//     console.log("帶你去歐洲玩")
+// }else if(strs==="巴魯魯"){
+//     console.log('帶你去宜蘭玩')
+// }else{
+//     console.log("禁足")
+// }
+
+//switch怎用
+//switch可以代替if else和if elseif
+//如果第一個條件被苻合，其實第二第三個條件下的代碼也會一併觸發
+//所以要加break
+// var key= '只被當一科'
+// switch (key) {
+//     case '歐趴':
+//         console.log('帶你去歐洲玩')
+//         break
+//     case '只被當一科':
+//         console.log('帶你去宜蘭玩')
+//         break
+//     default:
+//         console.log('禁足')
+//         break
+// }
+
+//for loop
+//for()內第一個是初始條件，第二個是運行條件，第三個是執行什麼
+//i++是i加1的意思
+//i--是i減1的意思
+//break是跳出loop
+//continue是跳過一次loop的意思 (當成出了張skip卡)
+//let和var一樣
+// for(let i=1;
+//     i<=31;
+//     i++){
+//         if(i===4){
+//             continue
+//         }
+//         console.log('第' + i + '隻綿羊')
+//     }
+
+//while loop
+// let i=1;
+// while (i <=100){
+//     console.log('第' + i + '隻綿羊')
+//     i++
+// }
+
+//do while loop
+// let i = 0;
+// do{
+//     i++;
+//     console.log('第' + i + '隻綿羊')
+// }while(i<39)
+
+//99乘法表
+// for(i=1;i<10;i++){
+//     for(j=1;j<10;j++){
+//         console.log(i + " x " + j + " = " + i*j)
+//     }
+// }
+
+//function (其實跟python很像啦)
+// function awa(index){
+//     for(var i=1; i<=index; i++){
+//         console.log("第" + i + "隻綿羊")
+//     }
+// }
+
+//表達式和陳述句
+//表達式會回傳value，但是陳述句不會
+
+//function宣告的第二種方式
+//使用第二種方式來宣告function的話，在function宣告前不能用它
+//但第一種方式來宣告的話，function宣告前也能用
+//有宣就好
+//為什麼會這樣?
+//hoisting 提升
+//有define function代碼在的代碼，會在電腦編譯代碼檔案時就被load進ram裏
+//因此即使在define那行前使用那function，也可以用到
+// var helloFunctionExpression = function(){
+//     console.log('awa magic cenario')
+// }
