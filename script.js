@@ -312,12 +312,135 @@
 //基本和python一樣 (但len在js是陣列的一種屬性)
 //pop就是移除一個元素
 //push是js版的append
-var arr = ['awa',154,'asta']
-for (i=0;i<=arr.length;i++){
-    console.log(arr[i])
-}
-arr.pop(154)
-console.log(arr)
-arr.push("cat")
-arr.push("cat")
-console.log(arr)
+//當然，也可以用最原始的根據index加元素
+// var arr = ['awa',154,'asta']
+// for (i=0;i<=arr.length;i++){
+//     console.log(arr[i])
+// }
+// arr.pop(154)
+// console.log(arr)
+// arr.push("cat")
+// arr.push("cat")
+// console.log(arr)
+// arr[2] = "awa"
+
+//arr.indexOf就是把元素在陣列中的位置搞下來的函數
+//arr.slice就是會return列表中由第一個參數的位置到第二個參數前的位置的元素
+//具體切到幾號元素，和python的range運作原理差不多
+//其他array用法就去看mdn
+// var arr = ["apple","orange","banana"]
+// console.log(arr.indexOf('orange'))
+// arr = arr.slice(0,1)
+// console.log(arr)
+
+//map: 一個把array裏的東西全改一篇的功能
+//基本構造在下面可以看到，包個函數，然後這函數會作用在每一個array裏的物件
+// var dogs = [100,200,300]
+// var result = dogs.map(function(dog){
+//     return dog *= 10
+// })
+// console.log(result)
+
+//用for也可以做到同一件事啦
+// var dogs = [100,200,300]
+// for(i=0;i<dogs.length;i+=1){
+//     dogs[i] += 100
+// }
+// console.log(dogs);
+
+//forEach: 另一個把array裏的東西全改一篇的功能，和map的分別是它是直接在dogs這個列表上改的
+// var dogs = [100,200,300]
+// dogs.forEach(function(dog){
+//     dog *= 10
+// })
+// console.log(dogs)
+
+//let和var的分別: let只能在括號內生效，例如在for的那幾個參數裏
+//var可以在整個for、while或function裏運作
+
+//filter: 故名思義，根據條件把列表中的東西過濾的function
+// var awa = [1,2,3,5,5,6,8,9]
+// awa = awa.filter(function(element){
+//     return element > 5 && element <= 8;
+// })
+// console.log(awa)
+
+//filter函數也能filter到一些更精細的東西喔!
+// var awa = [{name: "Mary",age: 15},
+//     {name: "Bob",age: 17},
+//     {name: "Carmen",age: 14}
+// ]
+// awa = awa.filter(function(element){
+//     return element["age"] > 15;
+// })
+// console.log(awa)
+
+//find會回在列表中苻合要求的第一個元素
+// var maluka = [1,2,3,5,5,6,8,9]
+// let found = maluka.find(function(number){
+//     return number > 3
+// })
+// console.log(found)
+
+//用prototype能給所有array上屬性!
+//但盡量別用，畢竟是人家設好了的東西
+// Array.prototype.test = true
+// var mast = ["awa","kala","semo"]
+// console.log(mast.test)
+
+//reduce另一個和列表有關的function
+//sum的預設值是function之外的另一個參數裏定的0
+// var kukusta = [10,15,23,5,11]
+// var marru = kukusta.reduce(function (sum,current){
+//     sum += current
+//     return sum;
+// },0)
+// console.log(marru)
+
+//let和const的分別
+//var會在全域裏有效
+//const則是在大括號內有效
+//for裏的var會污染for外的東西，但let不會
+// var i=0;
+// for(let i = 0;i<10; i++){
+//     console.log("測試" + i + "次");
+// }
+// console.log(i)
+
+//類此的範例
+// var x=1;
+// if(x==1){
+//     var x = 5
+// }else{
+//     var x = 10
+// }
+// console.log(x);
+
+//下面這段code是寫在了教學裏
+//但我用不出
+// (function($){
+//     var x = 1;
+// })(jQuery);
+// {
+//     let x = 1;
+// }
+
+//const 常數的用法
+// const dog = 'Peter'
+//dog就能不能被再定義
+//例外: 常數物件裏的項目是能改值的
+// const person = {
+//     name: 'awa',
+//     age: 20
+// }
+// person['name'] = 'Carsol'
+// console.log(person)
+
+//解構賦值
+// let a = 1;
+// let b = 2;
+// let c = 3;
+//這樣做很麻煩?
+//這樣做一個解構就可以了
+// let [a,b,c] = [1,2,3]
+// console.log(a + " " + b + " " + c)
