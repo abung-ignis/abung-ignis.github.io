@@ -444,3 +444,84 @@
 //這樣做一個解構就可以了
 // let [a,b,c] = [1,2,3]
 // console.log(a + " " + b + " " + c)
+//下面這樣也可以喔!
+//兩個是同樣的意思，可以當上面的是下面的縮寫
+// let {a,b,c} = {a: 1,b: 2,c: 3}
+// let {a: a,b: b,c: c} = {a: 1,b: 2,c: 3}
+
+//迭代器 iterator
+//迭代協議 指一個物件可不可以用作迭代
+//(迭代一個string後直接拆成一個個字)
+//砌出迭代器的變數後，就可以用 (迭代器變數名字).next() 來逐個逐個字串出來
+// var strs = "hello";
+// var iterator = strs[Symbol.iterator]()
+// console.log(iterator)
+// console.log(iterator.next()) //出 "h"
+// console.log(iterator.next()) //出 "e"
+
+//當然，我用陣列也能做到iterator
+// myArray = [1,10,2,6,8,13]
+// var iterator = myArray[Symbol.iterator]()
+// console.log(iterator.next())
+
+//for of與for in
+//for of是出key-value中的value (可以用來列列表中的element)
+//for in是出key-value中的key
+// for (var a of [1,2,3,4]){
+//     console.log(a) //出1、2、3、4
+// }
+// for (var a in {b: "c",a: "b",d: "e"}){
+//     console.log(a) //出c、b、e
+// }
+
+//""和``的分別
+//用``來搞string的話可以斷行
+//""不行喔
+//此外，用``可以插入變數
+// var x = "tom"
+// var str2 = `aw
+// a ${x}`
+// console.log(str2)
+
+//展開運算子
+//print出來的就不是一個array，而是一個把裏面的物品展開來展示的string了
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [6,7,8,9]
+// console.log(...arr2)
+// math.min是用來找列表最小值 (但必須用)
+// console.log(Math.min(...arr2))
+// let arr3 = [...arr1, ...arr2]
+// 等同arr3.concat(arr1,arr2) concat是用來合併array
+// console.log(arr3)
+
+//...也可以用在物件上喔
+//let obj1 = {a: 10,b: 20}
+//let obj2 = {c: 225,d: 26}
+//let result = {...obj1,...obj2}
+//console.log(result)
+
+//箭頭函式
+//是函式的簡化版，x是input的函數，箭頭後的是要return的值是怎樣的，不加括號就會有回傳值
+//加了括號的話，就會沒回傳值
+// const function1 = x => x+1
+// console.log(function1(1))
+// const function2 = x => {x+2}
+// console.log(function2(2))
+//箭頭函式的this不是指自己喔，他直接指箭頭函式外的this
+
+//call() 呼叫
+//可以將this給重定義過
+// function greet(){
+//     let reply = `Hi, ${this.person}`
+//     console.log(reply);
+// }
+// greet.call({person: "Bill"})
+//記住，如果大括號自己有this (例如是個function)，裏面自己又有一個function什麼的有this
+//那這倆this以小為重
+
+//DOM
+//document object model
+//html必須要守一個叫什麼wsc的規範
+//走這wsc這套的html可以解析成dom tree
+//dom tree中會有不同的元素，大元素又可以拆成小元素 (說得不明不白是因為自己也挺慒的)
+//html中的每個元素都是一個物件
