@@ -525,3 +525,16 @@
 //走這wsc這套的html可以解析成dom tree
 //dom tree中會有不同的元素，大元素又可以拆成小元素 (說得不明不白是因為自己也挺慒的)
 //html中的每個元素都是一個物件
+
+//API
+//應用程式編程介面
+//網頁，也可以當成是一種應用程式喔
+//用document.(物件的ID名字) 就可以檢查
+
+//BOM
+//browser object model
+//其實就是window啦
+ 
+console.log(window.location.href) //檢查網址用的
+window.history.go(-1) //可以直接回到上一頁!
+window.history.go( 1) //可以直接跳到下一頁!
