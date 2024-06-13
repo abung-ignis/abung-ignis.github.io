@@ -535,6 +535,15 @@
 //browser object model
 //其實就是window啦
  
-console.log(window.location.href) //檢查網址用的
-window.history.go(-1) //可以直接回到上一頁!
-window.history.go( 1) //可以直接跳到下一頁!
+// console.log(window.location.href) //檢查網址用的
+// window.history.go(-1) //可以直接回到上一頁!
+// window.history.go( 1) //可以直接跳到下一頁!
+
+//(網頁元素).innerText (看內部的詞語)
+//document.getElementById (拿element object)
+//詳情直接看awa的script.js那邊吧
+
+const footer = document.getElementById('footer')
+footer.onclick = () => {
+    footer.innerHTML = `<p id="end_footer">abc</p>`
+}
