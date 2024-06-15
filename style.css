@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'NaikaiFont-Regular';
-    src: url('./font/NaikaiFont-Regular.ttf');
+    font-family: 'Cubic_11_1.200_R';
+    src: url('./font/Cubic_11_1.200_R.ttf');
 }
 body{
     background-color: rgb(15, 15, 15);
+    font-family:'Cubic_11_1.200_R', Times, serif;
+    color: white;
 }
 .block{
-    font-family:'NaikaiFont-Regular', Times, serif;
+    font-family:'Cubic_11_1.200_R', Times, serif;
     color: white;
     background-color: gray;
     width: 50px;
@@ -15,12 +17,27 @@ body{
     justify-content: center;
     place-items: center;
     float: left;
+    font-size: larger;
+}
+.text{
+    font-family:'Cubic_11_1.200_R', Times, serif;
+    color: white;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    float: left;
+    font-size: larger;
+    text-align: center;
 }
 #table{
     display:flex;
     justify-content: center;
     place-items: center;
-    height: 100vh;
+    height: auto;
+    margin-top: 50px;
 }
 #Li,#Na,#K,#Rb,#Cs,#Fr{
     background-color: rgb(255, 62, 62);
@@ -59,8 +76,15 @@ body{
     background-color: rgb(113, 62, 255);
     border: none;
 }
-#{
-
+#La,#Ce,#Pr,#Nd,#Pm,#Sm,#Eu,#Gd,#Tb,#Dy,#Ho,#Er,#Tm,#Yb,#Lu{
+    background-color: rgb(62, 194, 255);
+    border: none;
+    color: rgb(15, 15, 15);
+}
+#Ac,#Th,#Pa,#U,#Np,#Pu,#Am,#Cm,#Bk,#Cf,#Es,#Fm,#Md,#No,#Lr{
+    background-color: rgb(203, 255, 120);
+    border: none;
+    color: rgb(15, 15, 15);
 }
 tr{
     width: 500px;
@@ -70,4 +94,16 @@ tr::after {
     content: "";
     display: table;
     clear: both;
+}
+#header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    height: 150px
+}
+#title{
+    font-size: 50px;
+    margin: 0%;
 }

@@ -7,12 +7,31 @@
     <title>元素週期表</title>
 </head>
 <body>
-    <script src='script.js'></script>
+    <header>
+        <div id="header">
+            <p id="title">神奇的網頁</p>
+            <p id="subtitle">阿崩寫的</p>
+        </div>
+    </header>
     <div id="table">
-      <table>
+      <table id="periodic">
+        <tr>
+            <td colspan="18"><div class="text" style="width: 100%; font-size: xx-large;">元素週期表</div></td>
+        </tr>
+        <tr>
+            <td><div class="text">I</div></td>
+            <td colspan="16"></td>
+            <td><div class="text">0</div></td>
+        </tr>
         <tr>
             <td><div class="block" id="H">H</div></td>
-            <td colspan="16"></td>
+            <td><div class="text">II</div></td>
+            <td colspan="10"></td>
+            <td><div class="text">III</div></td>
+            <td><div class="text">IV</div></td>
+            <td><div class="text">V</div></td>
+            <td><div class="text">VI</div></td>
+            <td><div class="text">VII</div></td>
             <td><div class="block" id="He">He</div></td>
         </tr>
         </tr>
@@ -29,7 +48,14 @@
         </tr>
             <td><div class="block" id="Na">Na</div></td>
             <td><div class="block" id="Mg">Mg</div></td>
-            <td colspan="10"></td>
+            <td><div class="text">III A</div></td>
+            <td><div class="text">IV A</div></td>
+            <td><div class="text">V A</div></td>
+            <td><div class="text">VI A</div></td>
+            <td><div class="text">VII A</div></td>
+            <td colspan="3"><div class="text" style="width: 100%;">VIII A</div></td>
+            <td><div class="text">I A</div></td>
+            <td><div class="text">II A</div></td>
             <td><div class="block" id="Al">Al</div></td>
             <td><div class="block" id="Si">Si</div></td>
             <td><div class="block" id="P">P</div></td>
@@ -80,7 +106,7 @@
         </tr>
             <td><div class="block" id="Cs">Cs</div></td>
             <td><div class="block" id="Ba">Ba</div></td>
-            <td colspan="1"></td>
+            <td><div class="text">鑭系</div></td>
             <td><div class="block" id="Hf">Hf</div></td>
             <td><div class="block" id="Ta">Ta</div></td>
             <td><div class="block" id="W">W</div></td>
@@ -100,7 +126,7 @@
         </tr>
             <td><div class="block" id="Fr">Fr</div></td>
             <td><div class="block" id="Ra">Ra</div></td>
-            <td colspan="1"></td>
+            <td><div class="text">錒系</div></td>
             <td><div class="block" id="Rf">Rf</div></td>
             <td><div class="block" id="Db">Db</div></td>
             <td><div class="block" id="Sg">Sg</div></td>
@@ -120,8 +146,9 @@
         <tr>
             <td colspan="18" style="height: 50px;"></td>
         </tr>
-        </tr id="la">
-            <td colspan="3"></td>
+        </tr>
+            <td colspan="2"></td>
+            <td><div class="text">鑭系</div></td>
             <td><div class="block" id="La">La</div></td>
             <td><div class="block" id="Ce">Ce</div></td>
             <td><div class="block" id="Pr">Pr</div></td>
@@ -138,8 +165,9 @@
             <td><div class="block" id="Yb">Yb</div></td>
             <td><div class="block" id="Lu">Lu</div></td>
         </tr>
-        </tr id="ac">
-            <td colspan="3"></td>
+        </tr>
+            <td colspan="2"></td>
+            <td><div class="text">錒系</div></td>
             <td><div class="block" id="Ac">Ac</div></td>
             <td><div class="block" id="Th">Th</div></td>
             <td><div class="block" id="Pa">Pa</div></td>
@@ -158,5 +186,7 @@
         </tr>
       </table>
     </div>
+
+    <script src='script.js'></script>
 </body>
 </html>
