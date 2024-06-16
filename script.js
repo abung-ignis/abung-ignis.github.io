@@ -21,12 +21,12 @@ fetch('./info.json')
 
 function element_info(the_id){
     god_info_second.innerText = god_info[the_id]['duty']
-    var strs = god_info[the_id]['ps'].join("<br><br>")
-    god_info_third.innerHTML = `<p id="god_info_third">${strs}</p>`
+    // var strs = god_info[the_id]['ps'].join("<br><br>")
+    // god_info_third.innerHTML = `<p id="god_info_third">${strs}</p>`
     var god_lst = []
     document.getElementById('small_title_1').innerText = "神明名字"
     document.getElementById('small_title_2').innerText = "神職"
-    document.getElementById('small_title_3').innerText = "小資訊"
+    // document.getElementById('small_title_3').innerText = "小資訊"
     document.getElementById('small_title_4').innerText = "氧化數"
     for([index,names] of god_info[the_id]['god'].entries()){
         if(god_info[the_id]['god_sex'][index] === "男"){
@@ -42,12 +42,12 @@ function element_info(the_id){
         document.getElementById("another").appendChild(td)
         console.log(td)
         var div = document.createElement("div")
-        div.innerHTML = `<div class="block" id="on" style="background-color: ${god_info[the_id]['color'][index]}">${oxidation}</div>`
-        div.style.backgroundColor = god_info[the_id]['color']
-        div.style.textDecoration = "underline";
-        console.log(oxidation in god_info[the_id]['usual_on'])
+        if(oxidation in god_info[the_id]['usual_on']){
+            div.innerHTML = `<div class="block" id="on" style="background-color: ${god_info[the_id]['color'][index]}; color: yellow;">${oxidation}</div>`
+        }else{
+            div.innerHTML = `<div class="block" id="on" style="background-color: ${god_info[the_id]['color'][index]};">${oxidation}</div>`
+        }
         td.appendChild(div);
-        if(oxidation in god_info[the_id]['usual_on']){div.style.textDecoration = "underline";}
         console.log(div.innerHTML)
     }
     god_info_first.innerHTML = god_lst.join("、")
