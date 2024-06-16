@@ -19,6 +19,9 @@ body{
     float: left;
     font-size: larger;
 }
+#not_wide{
+    width: 10px;
+}
 .text{
     font-family:'Cubic_11_1.200_R', Times, serif;
     color: white;
@@ -38,6 +41,12 @@ body{
     place-items: center;
     height: auto;
     margin-top: 50px;
+}
+#another{
+    display:flex;
+    justify-content: left;
+    place-items: center;
+    height: auto;
 }
 #Li,#Na,#K,#Rb,#Cs,#Fr{
     background-color: rgb(255, 62, 62);
@@ -106,4 +115,52 @@ tr::after {
 #title{
     font-size: 50px;
     margin: 0%;
+}
+#second_info{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+#first_info{
+    height: 100%;
+    width: 23%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    place-items: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#display_block{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(62, 255, 245);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    color:rgb(15, 15, 15);
+}
+#little_title{
+    font-size: 60px;
+    margin: 0;
+}
+#little_subtitle{
+    font-size: 30px;
+    margin: 0;
+}
+.small_title{
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 0%;
+}
+#god_info > p{
+    display: inline;
+    align-self: auto;
 }
