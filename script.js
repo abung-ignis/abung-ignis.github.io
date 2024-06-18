@@ -11,6 +11,7 @@ var bright = true
 var intervals = []
 var elemento = []
 var god_info = []
+var extra_info = []
 
 fetch('./info.json')
     .then((response) => response.json())
@@ -28,6 +29,11 @@ function element_info(the_id){
     document.getElementById('small_title_2').innerText = "神職"
     // document.getElementById('small_title_3').innerText = "小資訊"
     document.getElementById('small_title_4').innerText = "氧化數"
+    document.getElementById('small_title_3').innerText = "熔點"
+    document.getElementById('small_title_5').innerText = "沸點"
+    document.getElementById('small_title_6').innerText = "電子排序"
+    document.getElementById('element_info_1').innerHTML = `<p class= "infos" id="element_info_1">${(god_info[the_id]['melt']-273.15).toFixed(2)}℃<br>(${(god_info[the_id]['melt']).toFixed(2)}K)</p>`
+    document.getElementById('element_info_2').innerHTML = `<p class= "infos" id="element_info_2">${(god_info[the_id]['boil']-273.15).toFixed(2)}℃<br>(${(god_info[the_id]['boil']).toFixed(2)}K)</p>`
     for([index,names] of god_info[the_id]['god'].entries()){
         if(god_info[the_id]['god_sex'][index] === "男"){
             god_lst.push(`<span style="color: rgb(169, 169, 255)">${names}</span>`)
@@ -36,17 +42,28 @@ function element_info(the_id){
         }
     }
     document.getElementById("another").innerHTML = `<tr id="another"></tr>`
+    document.getElementById("element_another").innerHTML = `<tr id="element_another"></tr>`
     for([index,oxidation] of god_info[the_id]['on'].entries()){
         var td = document.createElement("td");
         td.innerHTML = `<td id="not_wide"></td>`
         document.getElementById("another").appendChild(td)
         console.log(td)
         var div = document.createElement("div")
-        if(oxidation in god_info[the_id]['usual_on']){
+        if(god_info[the_id]['usual_on'].indexOf(oxidation) != -1){
             div.innerHTML = `<div class="block" id="on" style="background-color: ${god_info[the_id]['color'][index]}; color: yellow;">${oxidation}</div>`
         }else{
             div.innerHTML = `<div class="block" id="on" style="background-color: ${god_info[the_id]['color'][index]};">${oxidation}</div>`
         }
+        td.appendChild(div);
+        console.log(div.innerHTML)
+    }
+    for([index,shells] of god_info[the_id]['shells'].entries()){
+        var td = document.createElement("td");
+        td.innerHTML = `<td id="another_not_wide"></td>`
+        document.getElementById("element_another").appendChild(td)
+        console.log(td)
+        var div = document.createElement("div")
+        div.innerHTML = `<div class="block" id="electron">${shells}</div>`
         td.appendChild(div);
         console.log(div.innerHTML)
     }

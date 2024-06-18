@@ -19,7 +19,7 @@ body{
     float: left;
     font-size: larger;
 }
-#not_wide{
+#not_wide,#another_not_wide{
     width: 50px;
     display: flex;
     align-self: center;
@@ -98,7 +98,7 @@ body{
     border: none;
     color: rgb(15, 15, 15);
 }
-tr{
+.periodic > tr{
     width: 500px;
     white-space: 10;
 }
@@ -163,19 +163,27 @@ tr::after {
 }
 .small_title{
     font-size: 35px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0%;
     text-align: center;
+    width: auto
 }
 .infos{
-    align-self: auto;
+    align-self: center;
     text-align: center;
 }
-#element_infos > tr > td > p{
+table#element_infos > tr > td{
     display: inline;
-    align-self: auto;
-    text-align: center;
+    width: 100px;
+    text-align: left;
 }
-#another > td > div{
-    color: red;
+#element_another,#another{
+    display:flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    height: auto;
+}
+#small_title_4,#small_title_6{
+    margin-bottom: 20px
 }
