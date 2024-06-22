@@ -56,5 +56,33 @@
         "melt": 13.99,
         "boil": 20.271,
         "shells": [2,2]
+    },
+    "B": {
+        "name": "硼",
+        "atomic": 5,
+        "on": ["-5","0","+1","+2","+3"],
+        "usual_on": ["+3"],
+        "color": ["gray","gray","gray","gray","gray"],
+        "god": ["波拉希"],
+        "god_sex": ["女"],
+        "duty": "編織之主",
+        "ps": [""],
+        "melt": 2349,
+        "boil": 4200,
+        "shells": [2,3]
+    },
+    "C": {
+        "name": "碳",
+        "atomic": 6,
+        "on": ["-5","0","+1","+2","+3"],
+        "usual_on": ["+3"],
+        "color": ["gray","gray","gray","gray","gray"],
+        "god": ["波拉希"],
+        "god_sex": ["女"],
+        "duty": "編織之主",
+        "ps": [""],
+        "melt": 2349,
+        "boil": 4200,
+        "shells": [2,4]
     }
 }
