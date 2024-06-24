@@ -1,8 +1,455 @@
 {
+  "Hydrogen": {
+    "melting": 14.01,
+    "covalent_radius": 31,
+    "electronegativity": 2.2,
+    "van_der_waals_radius": 120,
+    "ionization_energies": [
+      1312
+    ],
+    "on": [
+      "−1",
+      "0",
+      "+1"
+    ],
+    "boiling": 2,
+    "electron_shell": [
+      1
+    ],
+    "atomic_radius": 53,
+    "important_on": [
+      "+1"
+    ],
+    "lf": 2,
+    "density": 0.08988,
+    "lv": 2,
+    "color": {},
+    "god": ["夏茲洛","哈茲羅"],
+    "god_sex": ["女","男"],
+    "duty": "司水之主",
+    "flame_color": ["淺藍色","#ADD8E6"]
+  },
+  "Helium": {
+    "important_on": [
+      "0"
+    ],
+    "melting": null,
+    "electronegativity": null,
+    "covalent_radius": 28,
+    "ionization_energies": [
+      2372.3,
+      5250.5
+    ],
+    "density": 0.1786,
+    "lf": 0.0138,
+    "lv": 0.0829,
+    "electron_shell": [
+      2
+    ],
+    "on": [
+      "0"
+    ],
+    "van_der_waals_radius": 140,
+    "boiling": 4.222,
+    "atomic_radius": 31,
+    "color": {},
+    "god": ["希里和"],
+    "god_sex": ["女"],
+    "duty": "堅定之主",
+    "flame_color": ["無","#FFFFF"]
+  },
+  "Lithium": {
+    "important_on": [
+      "+1"
+    ],
+    "melting": 453.65,
+    "density": 0.5334,
+    "atomic_radius": 152,
+    "covalent_radius": 128,
+    "ionization_energies": [
+      520.2,
+      7298.1,
+      11815
+    ],
+    "van_der_waals_radius": 182,
+    "on": [
+      "0",
+      "+1"
+    ],
+    "electron_shell": [
+      2,
+      1
+    ],
+    "lf": 3,
+    "electronegativity": 0.98,
+    "boiling": 1603,
+    "lv": 136,
+    "color": {},
+    "god": ["里法安"],
+    "god_sex": ["男"],
+    "duty": "飄羽之主",
+    "flame_color": ["紅色","#ff0000"]
+  },
+  "Beryllium": {
+    "density": 1.845,
+    "van_der_waals_radius": 153,
+    "atomic_radius": 112,
+    "electron_shell": [
+      2,
+      2
+    ],
+    "lf": 12.2,
+    "melting": 1560,
+    "on": [
+      "0",
+      "+1",
+      "+2"
+    ],
+    "important_on": [
+      "+2"
+    ],
+    "boiling": 2742,
+    "electronegativity": 1.57,
+    "ionization_energies": [
+      899.5,
+      1757.1,
+      848.7
+    ],
+    "covalent_radius": 96,
+    "lv": 292,
+    "color": {},
+    "god": ["貝勒里","貝莉莉"],
+    "god_sex": ["男","女"],
+    "duty": "幸運之主",
+    "flame_color": ["無色","#FFFFFF"]
+  },
+  "Boron": {
+    "atomic_radius": 90,
+    "melting": 2349,
+    "lf": 50.2,
+    "ionization_energies": [
+      800.6,
+      2427.1,
+      3659.7
+    ],
+    "electronegativity": 2.04,
+    "lv": 508,
+    "electron_shell": [
+      2,
+      3
+    ],
+    "important_on": [
+      "+3"
+    ],
+    "covalent_radius": 84,
+    "van_der_waals_radius": 192,
+    "boiling": 4200,
+    "density": 2.08,
+    "on": [
+      "−5",
+      "−1",
+      "0",
+      "+1",
+      "+2",
+      "+3"
+    ],
+    "color": {},
+    "god": ["波拉希"],
+    "god_sex": ["女"],
+    "duty": "編織之主",
+    "flame_color": ["亮綠色","#25EE34"]
+  },
+  "Carbon": {
+    "lv": 355.8,
+    "density": 2.266,
+    "on": [
+      "−4",
+      "−3",
+      "−2",
+      "−1",
+      "0",
+      "+1",
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "van_der_waals_radius": 170,
+    "electron_shell": [
+      2,
+      4
+    ],
+    "electronegativity": 2.55,
+    "melting": 3823,
+    "covalent_radius": 3,
+    "atomic_radius": 70,
+    "boiling": 5100,
+    "important_on": [
+      "0",
+      "+1",
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "ionization_energies": [
+      1086.5,
+      2352.6,
+      4620.5
+    ],
+    "lf": 117,
+    "color": {},
+    "god": ["卡百尼"],
+    "god_sex": ["女"],
+    "duty": "生命之主",
+    "flame_color": ["橙黃色","#FFbb00"]
+  },
+  "Nitrogen": {
+    "atomic_radius": 65,
+    "melting": 2,
+    "lv": 2.7928,
+    "covalent_radius": 71,
+    "density": 1.2506,
+    "van_der_waals_radius": 155,
+    "electronegativity": 3.04,
+    "on": [
+      "−3",
+      "−2",
+      "−1",
+      "0",
+      "+1",
+      "+2",
+      "+3",
+      "+4",
+      "+5"
+    ],
+    "important_on": [
+      "+3",
+      "+5",
+      "+3",
+      "+5"
+    ],
+    "lf": 2,
+    "ionization_energies": [],
+    "electron_shell": [
+      2,
+      5
+    ],
+    "boiling": 2,
+    "color": {},
+    "god": ["亞索塔"],
+    "god_sex": ["女"],
+    "duty": "百態之主",
+    "flame_color": ["無","#FFFFFF"]
+  },
+  "Oxygen": {
+    "density": 1.429,
+    "lf": 2,
+    "melting": 2,
+    "on": [
+      "−2",
+      "−1",
+      "0",
+      "+1",
+      "+2"
+    ],
+    "important_on": [],
+    "ionization_energies": [
+      1313.9,
+      3388.3,
+      5300.5
+    ],
+    "electronegativity": 3.44,
+    "atomic_radius": 60,
+    "electron_shell": [
+      2,
+      6
+    ],
+    "covalent_radius": 66,
+    "lv": 2,
+    "boiling": 2,
+    "color": {},
+    "van_der_waals_radius": 152,
+    "god": ["阿西斯"],
+    "god_sex": ["女"],
+    "duty": "司火之主",
+    "flame_color": ["無","#FFFFFF"]
+  },
+  "Fluorine": {
+    "melting": 2,
+    "covalent_radius": 64,
+    "van_der_waals_radius": 135,
+    "boiling": 2,
+    "atomic_radius": 42,
+    "electron_shell": [
+      2,
+      7
+    ],
+    "lf": 0.2552,
+    "lv": 6.51,
+    "on": [
+      "−1",
+      "0"
+    ],
+    "important_on": [],
+    "ionization_energies": [
+      1681,
+      3374,
+      6147
+    ],
+    "density": 1.696,
+    "electronegativity": 3.98,
+    "color": {},
+    "god": ["琺洛萊"],
+    "god_sex": ["女"],
+    "duty": "恐懼之主",
+    "flame_color": ["無","#FFFFF"]
+  },
+  "Neon": {
+    "melting": 24.56,
+    "electron_shell": [
+      2,
+      8
+    ],
+    "van_der_waals_radius": 154,
+    "important_on": [
+      "0"
+    ],
+    "on": [
+      "0"
+    ],
+    "ionization_energies": [
+      2080.7,
+      3952.3,
+      6122
+    ],
+    "density": 0.9002,
+    "lv": 1.71,
+    "boiling": 27.104,
+    "electronegativity": null,
+    "atomic_radius": 38,
+    "lf": 0.335,
+    "covalent_radius": 58,
+    "color": {},
+    "god": ["諾芬姆"],
+    "god_sex": ["女"],
+    "duty": "光明之主",
+    "flame_color": ["紅橙色","#ff3300"]
+  },
+  "Sodium": {
+    "boiling": 1156.09,
+    "atomic_radius": 186,
+    "electronegativity": 0.93,
+    "important_on": [
+      "+1"
+    ],
+    "van_der_waals_radius": 227,
+    "electron_shell": [
+      2,
+      8,
+      1
+    ],
+    "covalent_radius": 166,
+    "lv": 97.42,
+    "on": [
+      "−1",
+      "0",
+      "+1"
+    ],
+    "lf": 2.6,
+    "ionization_energies": [
+      495.8,
+      4562,
+      6910.3
+    ],
+    "melting": 370.944,
+    "density": 0.9688,
+    "color": {},
+    "god": ["拉齊連"],
+    "god_sex": ["男"],
+    "duty": "勇氣之主",
+    "flame_color": ["金黃色","#ffdf00"]
+  },
+  "Magnesium": {
+    "melting": 923,
+    "ionization_energies": [
+      737.7,
+      1450.7,
+      7732.7
+    ],
+    "on": [
+      "0",
+      "+1",
+      "+2"
+    ],
+    "density": 1.737,
+    "electron_shell": [
+      2,
+      8,
+      2
+    ],
+    "lf": 8.48,
+    "atomic_radius": 160,
+    "van_der_waals_radius": 173,
+    "important_on": [
+      "+2"
+    ],
+    "covalent_radius": 141,
+    "electronegativity": 1.31,
+    "lv": 128,
+    "boiling": 1363,
+    "color": {},
+    "god": ["馬納斯"],
+    "god_sex": ["男"],
+    "duty": "希望之主",
+    "flame_color": ["白色","#ffffff"]
+  },
+  "Aluminium": {
+    "melting": 933.47,
+    "lf": 10.71,
+    "important_on": [
+      "+3"
+    ],
+    "density": 2.699,
+    "covalent_radius": 121,
+    "lv": 284,
+    "electron_shell": [
+      2,
+      8,
+      3
+    ],
+    "on": [
+      "−2",
+      "−1",
+      "0",
+      "+1",
+      "+2",
+      "+3"
+    ],
+    "ionization_energies": [
+      577.5,
+      1816.7,
+      2744.8
+    ],
+    "atomic_radius": 143,
+    "van_der_waals_radius": 184,
+    "electronegativity": 1.61,
+    "boiling": 2743,
+    "color": {},
+    "god": ["阿洛綿","亞琉米"],
+    "god_sex": ["男","女"],
+    "duty": "制空之主",
+    "flame_color": ["白色","#ffffff"]
+  },
   "Silicon": {
-    "lv": 383,
-    "melting": 1687,
+    "ionization_energies": [
+      786.5,
+      1577.1,
+      3231.6
+    ],
     "lf": 50.21,
+    "covalent_radius": 111,
+    "melting": 1687,
+    "van_der_waals_radius": 210,
+    "electronegativity": 1.9,
     "on": [
       "−4",
       "−3",
@@ -15,219 +462,46 @@
       "+4"
     ],
     "density": 2.329085,
+    "important_on": [
+      "+4"
+    ],
+    "lv": 383,
     "boiling": 3538,
-    "important_on": [
-      "+4"
-    ]
-  },
-  "Hydrogen": {
-    "lf": 2,
-    "important_on": [
-      "+1"
+    "electron_shell": [
+      2,
+      8,
+      4
     ],
-    "lv": 2,
-    "density": 0.08988,
-    "melting": null,
-    "boiling": 2,
-    "on": [
-      "−1",
-      "0",
-      "+1"
-    ]
-  },
-  "Helium": {
-    "melting": null,
-    "lv": 0.0829,
-    "important_on": [
-      "0"
-    ],
-    "on": [
-      "0"
-    ],
-    "lf": 0.0138,
-    "boiling": 4.222,
-    "density": 0.1786
-  },
-  "Lithium": {
-    "lv": 136,
-    "density": 0.5334,
-    "melting": 453.65,
-    "lf": 3,
-    "on": [
-      "0",
-      "+1"
-    ],
-    "boiling": 1603,
-    "important_on": [
-      "+1"
-    ]
-  },
-  "Beryllium": {
-    "lf": 12.2,
-    "melting": 1560,
-    "lv": 292,
-    "boiling": 2742,
-    "density": 1.845,
-    "important_on": [
-      "+2"
-    ],
-    "on": [
-      "0",
-      "+1",
-      "+2"
-    ]
-  },
-  "Boron": {
-    "melting": 2349,
-    "boiling": 4200,
-    "density": 2.08,
-    "on": [
-      "−5",
-      "−1",
-      "0",
-      "+1",
-      "+2",
-      "+3"
-    ],
-    "lv": 508,
-    "important_on": [
-      "+3"
-    ],
-    "lf": 50.2
-  },
-  "Carbon": {
-    "melting": null,
-    "on": [
-      "−4",
-      "−3",
-      "−2",
-      "−1",
-      "0",
-      "+1",
-      "+2",
-      "+3",
-      "+4"
-    ],
-    "lf": 117,
-    "boiling": null,
-    "density": 2.266,
-    "lv": null,
-    "important_on": [
-      "0",
-      "+1",
-      "+2",
-      "+3",
-      "+4"
-    ]
-  },
-  "Nitrogen": {
-    "on": [
-      "−3",
-      "−2",
-      "−1",
-      "0",
-      "+1",
-      "+2",
-      "+3",
-      "+4",
-      "+5"
-    ],
-    "melting": 2,
-    "density": 1.2506,
-    "lv": null,
-    "lf": 2,
-    "boiling": 2,
-    "important_on": [
-      "+3",
-      "+5",
-      "+3",
-      "+5"
-    ]
-  },
-  "Oxygen": {
-    "on": [
-      "−2",
-      "−1",
-      "0",
-      "+1",
-      "+2"
-    ],
-    "lf": 2,
-    "important_on": [],
-    "melting": 2,
-    "boiling": 2,
-    "density": 1.429,
-    "lv": 2
-  },
-  "Fluorine": {
-    "melting": 2,
-    "important_on": [],
-    "lf": null,
-    "boiling": 2,
-    "on": [
-      "−1",
-      "0"
-    ],
-    "density": 1.696,
-    "lv": 6.51
-  },
-  "Neon": {
-    "boiling": 27.104,
-    "on": [
-      "0"
-    ],
-    "melting": 24.56,
-    "density": 0.9002,
-    "lv": 1.71,
-    "lf": 0.335,
-    "important_on": [
-      "0"
-    ]
-  },
-  "Sodium": {
-    "melting": 370.944,
-    "lv": 97.42,
-    "lf": 2.6,
-    "on": [
-      "−1",
-      "0",
-      "+1"
-    ],
-    "important_on": [
-      "+1"
-    ],
-    "boiling": 1156.09,
-    "density": 0.9688
-  },
-  "Magnesium": {
-    "lv": 128,
-    "melting": 923,
-    "lf": 8.48,
-    "important_on": [
-      "+2"
-    ],
-    "density": 1.737,
-    "on": [
-      "0",
-      "+1",
-      "+2"
-    ],
-    "boiling": 1363
-  },
-  "Aluminum": {
-    "lf": null,
-    "lv": null,
-    "density": null,
-    "important_on": [],
-    "boiling": null,
-    "on": [
-      ""
-    ],
-    "melting": null
+    "atomic_radius": 111,
+    "color": {},
+    "god": ["西里新","西那士"],
+    "god_sex": ["女","男"],
+    "duty": "電子之主",
+    "flame_color": ["藍綠色","#ffffff"]
   },
   "Phosphorus": {
-    "lv": null,
-    "density": 1.823,
+    "boiling": 553.7,
+    "atomic_radius": 98,
+    "electron_shell": [
+      2,
+      8,
+      5
+    ],
+    "lv": 12.129,
+    "electronegativity": 2.19,
+    "lf": 0.66,
+    "ionization_energies": [
+      1011.8,
+      1907,
+      2914.1
+    ],
+    "van_der_waals_radius": 180,
+    "covalent_radius": 107,
+    "melting": 317.3,
+    "important_on": [
+      "+3",
+      "+5"
+    ],
     "on": [
       "−3",
       "−2",
@@ -239,18 +513,14 @@
       "+4",
       "+5"
     ],
-    "boiling": 553.7,
-    "lf": 0.66,
-    "important_on": [
-      "+3",
-      "+5"
-    ],
-    "melting": 317.3
+    "density": 1.823,
+    "color": {},
+    "god": ["科茲可"],
+    "god_sex": ["女"],
+    "duty": "永恆之主",
+    "flame_color": ["淺藍綠色","#ffffff"]
   },
   "Sulfur": {
-    "melting": null,
-    "density": null,
-    "lf": null,
     "on": [
       "−2",
       "−1",
@@ -262,23 +532,50 @@
       "+5",
       "+6"
     ],
+    "atomic_radius": 100,
+    "electron_shell": [
+      2,
+      8,
+      6
+    ],
+    "covalent_radius": 105,
+    "electronegativity": 2.58,
     "boiling": 717.8,
-    "lv": null,
     "important_on": [
       "+2",
       "+4",
       "+6"
-    ]
+    ],
+    "density": 2.07,
+    "van_der_waals_radius": 180,
+    "lv": 1.1715,
+    "lf": 9.8,
+    "ionization_energies": [
+      999.6,
+      2252,
+      3357
+    ],
+    "melting": 115.21,
+    "color": {},
+    "god": ["薩由琺"],
+    "god_sex": ["女"],
+    "duty": "煉獄之主",
+    "flame_color": ["藍色","#444CF4"]
   },
   "Chlorine": {
-    "boiling": 2,
-    "important_on": [
-      "+1",
-      "+3",
-      "+5",
-      "+7"
+    "melting": 2,
+    "electron_shell": [
+      2,
+      8,
+      7
     ],
-    "lv": null,
+    "density": 3.2,
+    "lf": 2,
+    "boiling": 2,
+    "atomic_radius": 79,
+    "van_der_waals_radius": 175,
+    "covalent_radius": 102,
+    "ionization_energies": [],
     "on": [
       "−1",
       "0",
@@ -290,78 +587,160 @@
       "+6",
       "+7"
     ],
-    "density": 3.2,
-    "lf": 2,
-    "melting": 2
+    "important_on": [
+      "+1",
+      "+3",
+      "+5",
+      "+7"
+    ],
+    "lv": 10.2,
+    "electronegativity": 3.16,
+    "color": {},
+    "god": ["卡里茲"],
+    "god_sex": ["女"],
+    "duty": "貪婪之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Argon": {
     "melting": 83.81,
+    "atomic_radius": 71,
+    "lf": 1.18,
+    "ionization_energies": [
+      1520.6,
+      2665.8,
+      3931
+    ],
+    "density": 1.784,
+    "boiling": 87.302,
+    "van_der_waals_radius": 188,
+    "electron_shell": [
+      2,
+      8,
+      8
+    ],
+    "electronegativity": null,
     "lv": 6.53,
+    "covalent_radius": 106,
     "on": [
       "0"
     ],
-    "boiling": 87.302,
-    "lf": 1.18,
     "important_on": [
       "0"
     ],
-    "density": 1.784
+    "color": {},
+    "god": ["亞歌絲"],
+    "god_sex": ["女"],
+    "duty": "和平之主",
+    "flame_color": ["無","#FFFFF"]
   },
   "Potassium": {
     "melting": 336.7,
+    "electron_shell": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "ionization_energies": [
+      418.8,
+      3052,
+      4420
+    ],
+    "boiling": 1030.793,
+    "lf": 2.33,
+    "density": 0.859,
+    "van_der_waals_radius": 275,
+    "atomic_radius": 227,
+    "electronegativity": 0.82,
     "on": [
       "−1",
       "+1"
     ],
     "lv": 76.9,
-    "lf": 2.33,
-    "boiling": 1030.793,
-    "density": 0.859,
     "important_on": [
       "+1"
-    ]
+    ],
+    "covalent_radius": 203,
+    "color": {},
+    "god": ["卡利亞"],
+    "god_sex": ["男"],
+    "duty": "喜樂之主",
+    "flame_color": ["丁香紫色","#C8A2C8"]
   },
   "Calcium": {
-    "density": 1.526,
-    "boiling": 1757,
     "melting": 1115,
+    "electronegativity": 1,
+    "covalent_radius": 176,
+    "density": 1.526,
     "lf": 8.54,
+    "ionization_energies": [],
+    "electron_shell": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "boiling": 1757,
+    "van_der_waals_radius": 231,
+    "lv": 153.3,
     "on": [
       "+1",
       "+2"
     ],
+    "atomic_radius": 197,
     "important_on": [
       "+2"
     ],
-    "lv": null
+    "color": {},
+    "god": ["卡渥茲"],
+    "god_sex": ["男"],
+    "duty": "農業之主",
+    "flame_color": ["磚紅色","#AA4A44"]
   },
   "Scandium": {
     "melting": 1814,
     "boiling": 3109,
+    "van_der_waals_radius": 211,
+    "covalent_radius": 170,
+    "density": 2.989,
+    "lf": 14.1,
+    "electron_shell": [
+      2,
+      8,
+      9,
+      2
+    ],
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
     ],
-    "lf": 14.1,
     "lv": 332.7,
-    "density": 2.989,
+    "electronegativity": 1.36,
+    "ionization_energies": [
+      633.1,
+      1235,
+      2388.6
+    ],
     "important_on": [
       "+3"
-    ]
+    ],
+    "atomic_radius": 162,
+    "color": {},
+    "god": ["斯加典","莎簡度"],
+    "god_sex": ["男","女"],
+    "duty": "自由之主",
+    "flame_color": ["黃色","#FFFF00"]
   },
   "Titanium": {
-    "lf": 14.15,
-    "boiling": 3560,
-    "density": 4.502,
-    "melting": 1941,
-    "important_on": [
-      "+2",
-      "+3",
-      "+4"
+    "ionization_energies": [
+      658.8,
+      1309.8,
+      2652.5
     ],
-    "lv": 425,
+    "melting": 1941,
+    "boiling": 3560,
     "on": [
       "−2",
       "−1",
@@ -370,7 +749,30 @@
       "+2",
       "+3",
       "+4"
-    ]
+    ],
+    "lv": 425,
+    "electron_shell": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "covalent_radius": 160,
+    "important_on": [
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "electronegativity": 1.54,
+    "van_der_waals_radius": 187,
+    "density": 4.502,
+    "lf": 14.15,
+    "atomic_radius": 147,
+    "color": {"3+": ["紫色", "#A020F0"]},
+    "god": ["泰塔斯","塔妲絲"],
+    "god_sex": ["男","女"],
+    "duty": "戰爭之主",
+    "flame_color": ["銀白色","#DADBDD"]
   },
   "Vanadium": {
     "important_on": [
@@ -379,7 +781,15 @@
       "+4",
       "+5"
     ],
-    "lv": 444,
+    "melting": 2183,
+    "ionization_energies": [
+      650.9,
+      1414,
+      2830
+    ],
+    "van_der_waals_radius": 179,
+    "density": 6.099,
+    "lf": 21.5,
     "on": [
       "−3",
       "−1",
@@ -390,16 +800,39 @@
       "+4",
       "+5"
     ],
-    "lf": 21.5,
-    "melting": 2183,
+    "electronegativity": 1.63,
+    "atomic_radius": 134,
+    "covalent_radius": 153,
+    "lv": 444,
+    "electron_shell": [
+      2,
+      8,
+      11,
+      2
+    ],
     "boiling": 3680,
-    "density": 6.099
+    "color": {"2+": ["紫色", "#A020F0"],"3+": ["綠色", "#008000"],"4+": ["藍色", "#329ef0"]},
+    "god": ["凡納第","琺那得"],
+    "god_sex": ["男","女"],
+    "duty": "色彩之主",
+    "flame_color": ["黃綠色","#ddf032"]
   },
   "Chromium": {
-    "boiling": 2944,
-    "density": 7.192,
     "melting": 2180,
+    "boiling": 2944,
     "lv": 347,
+    "electron_shell": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "van_der_waals_radius": 200,
+    "important_on": [
+      "+2",
+      "+3"
+    ],
+    "covalent_radius": 139,
     "on": [
       "−4",
       "−2",
@@ -410,18 +843,32 @@
       "+3",
       "+4",
       "+5",
-      "+6(",
-      "",
-      "",
-      ")"
+      "+6"
     ],
-    "important_on": [
-      "+2",
-      "+3"
+    "electronegativity": 1.66,
+    "lf": 21,
+    "ionization_energies": [
+      652.9,
+      1590.6,
+      2987
     ],
-    "lf": 21
+    "atomic_radius": 128,
+    "density": 7.192,
+    "color": {"2+": ["靛藍色", "#5e51f5"],"3+": ["松花綠", "#25964C"],"4+": ["橙色", "#FF9C46"]},
+    "god": ["可魯瑪","卡洛馬"],
+    "god_sex": ["女","男"],
+    "duty": "夢境之主",
+    "flame_color": ["銀白色","#DADBDD"]
   },
   "Manganese": {
+    "electron_shell": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "melting": 1519,
+    "boiling": 2334,
     "important_on": [
       "+2",
       "+3",
@@ -430,7 +877,16 @@
       "+2",
       "+4"
     ],
+    "van_der_waals_radius": 173,
+    "ionization_energies": [
+      717.3,
+      1509,
+      3248
+    ],
+    "density": 7.476,
+    "electronegativity": 1.55,
     "lf": 12.91,
+    "covalent_radius": 139,
     "on": [
       "−3",
       "−1",
@@ -441,18 +897,38 @@
       "+4",
       "+5",
       "+6",
-      "+7(",
-      "",
-      "",
-      ")"
+      "+7"
     ],
-    "density": 7.476,
     "lv": 221,
-    "boiling": 2334,
-    "melting": 1519
+    "atomic_radius": 127,
+    "color": {"2+": ["淺粉色", "#FCC4FF"],"7+": ["粉色", "#F75CFF"]},
+    "god": ["瑪歌尼","馬各拉"],
+    "god_sex": ["女","男"],
+    "duty": "智慧之主",
+    "flame_color": ["黃綠色","#BEEE1B"]
   },
   "Iron": {
     "melting": 1811,
+    "electronegativity": 1.83,
+    "boiling": 3134,
+    "van_der_waals_radius": 194,
+    "ionization_energies": [
+      762.5,
+      1561.9,
+      2957
+    ],
+    "electron_shell": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "atomic_radius": 126,
+    "covalent_radius": 132,
+    "important_on": [
+      "+2",
+      "+3"
+    ],
     "on": [
       "−4",
       "−2",
@@ -466,25 +942,19 @@
       "+6",
       "+7"
     ],
-    "lf": 13.81,
-    "lv": 340,
-    "important_on": [
-      "+2",
-      "+3"
-    ],
     "density": 7.874,
-    "boiling": 3134
+    "lv": 340,
+    "lf": 13.81,
+    "color": {"2+": ["淺綠色", "#B2FF95"],"7+": ["黃色", "#FFEF00"]},
+    "god": ["法倫姆","菲諾姆"],
+    "god_sex": ["男","女"],
+    "duty": "工業之主",
+    "flame_color": ["金黃色","#FFDA00"]
   },
   "Cobalt": {
-    "melting": 1768,
-    "lf": 16.06,
-    "lv": 377,
     "boiling": 3200,
-    "density": 8.834,
-    "important_on": [
-      "+2",
-      "+3"
-    ],
+    "van_der_waals_radius": null,
+    "atomic_radius": 125,
     "on": [
       "−3",
       "−1",
@@ -494,16 +964,57 @@
       "+3",
       "+4",
       "+5"
-    ]
+    ],
+    "lv": 377,
+    "electronegativity": 1.88,
+    "melting": 1768,
+    "covalent_radius": 126,
+    "ionization_energies": [
+      760.4,
+      1648,
+      3232
+    ],
+    "lf": 16.06,
+    "density": 8.834,
+    "important_on": [
+      "+2",
+      "+3"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "color": {"2+": ["淺紅色", "#FF7974"],"3+": ["綠色", "#2EE700"]},
+    "god": ["可保達","克寶德"],
+    "god_sex": ["男","女"],
+    "duty": "夜幕之主",
+    "flame_color": ["銀白色","#DADBDD"]
   },
   "Nickel": {
-    "lv": 379,
-    "melting": 1728,
-    "lf": 17.48,
-    "boiling": 3003,
-    "important_on": [
-      "+2"
+    "density": 8.907,
+    "atomic_radius": 124,
+    "electron_shell": [
+      2,
+      8,
+      16,
+      2,
+      2,
+      8,
+      17,
+      1
     ],
+    "van_der_waals_radius": 163,
+    "lv": 379,
+    "lf": 17.48,
+    "ionization_energies": [
+      737.1,
+      1753,
+      3395
+    ],
+    "boiling": 3003,
+    "melting": 1728,
     "on": [
       "−2",
       "−1",
@@ -513,16 +1024,42 @@
       "+3",
       "+4"
     ],
-    "density": 8.907
+    "electronegativity": 1.91,
+    "important_on": [
+      "+2"
+    ],
+    "covalent_radius": 124,
+    "color": {"2+": ["綠色", "#50F826"]},
+    "god": ["湼克渥"],
+    "god_sex": ["男"],
+    "duty": "商業之主",
+    "flame_color": ["銀白色","#DADBDD"]
   },
   "Copper": {
+    "melting": 1357.77,
+    "ionization_energies": [
+      745.5,
+      1957.9,
+      3555
+    ],
+    "covalent_radius": 132,
+    "boiling": 2835,
+    "electronegativity": 1.9,
     "lv": 300.4,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "density": 8.935,
     "important_on": [
       "+1",
       "+2"
     ],
-    "melting": 1357.77,
-    "boiling": 2835,
+    "van_der_waals_radius": 140,
+    "atomic_radius": 128,
+    "lf": 13.26,
     "on": [
       "−2",
       "0",
@@ -531,29 +1068,54 @@
       "+3",
       "+4"
     ],
-    "density": 8.935,
-    "lf": 13.26
+    "color": {"1+": ["綠色", "#FCC4FF"],"2+": ["淺藍色", "#FCC4FF"]},
+    "god": ["克柏洛"],
+    "god_sex": ["男"],
+    "duty": "智慧之主",
+    "flame_color": ["綠藍色","#1ce68b"]
   },
   "Zinc": {
-    "lf": 7.32,
+    "ionization_energies": [
+      1,
+      906.4,
+      2,
+      1733.3,
+      3,
+      3833
+    ],
     "melting": 692.68,
+    "important_on": [
+      "+2"
+    ],
+    "atomic_radius": 134,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "van_der_waals_radius": 139,
+    "covalent_radius": 122,
+    "electronegativity": 1.65,
     "lv": 115,
     "density": 7.14,
+    "lf": 7.32,
+    "boiling": 1180,
     "on": [
       "−2",
       "0",
       "+1",
       "+2"
     ],
-    "important_on": [
-      "+2"
-    ],
-    "boiling": 1180
+    "color": {},
+    "god": ["辛克爾","芝尼卡"],
+    "god_sex": ["男","女"],
+    "duty": "智慧之主",
+    "flame_color": ["綠藍色","#1ce68b"]
   },
   "Gallium": {
+    "melting": 302.9146,
     "boiling": 2676,
-    "lf": 5.59,
-    "lv": 256,
     "on": [
       "−5",
       "−4",
@@ -565,13 +1127,55 @@
       "+2",
       "+3"
     ],
-    "melting": 302.9146,
+    "lv": 256,
+    "atomic_radius": 135,
+    "van_der_waals_radius": 187,
+    "density": 5.907,
+    "electronegativity": 1.81,
+    "covalent_radius": 122,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      3
+    ],
     "important_on": [
       "+3"
     ],
-    "density": 5.907
+    "lf": 5.59,
+    "ionization_energies": [
+      578.8,
+      1979.3,
+      2963
+    ],
+    "color": {},
+    "god": ["加里安","伽蘭安"],
+    "god_sex": ["男","女"],
+    "duty": "腐蝕之主",
+    "flame_color": ["藍色","#1ce68b"]
   },
   "Germanium": {
+    "melting": 1211.4,
+    "van_der_waals_radius": 211,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "lv": 334,
+    "covalent_radius": 122,
+    "atomic_radius": 122,
+    "electronegativity": 2.01,
+    "ionization_energies": [
+      762,
+      1537.5,
+      3302.1
+    ],
+    "important_on": [
+      "+2",
+      "+4"
+    ],
     "on": [
       "−4",
       "−3",
@@ -583,18 +1187,34 @@
       "+3",
       "+4"
     ],
-    "important_on": [
-      "+2",
-      "+4"
-    ],
-    "lv": 334,
-    "lf": 36.94,
     "boiling": 3106,
+    "lf": 36.94,
     "density": 5.327,
-    "melting": 1211.4
+    "color": {},
+    "god": ["扎馬勒","芝瑪尼"],
+    "god_sex": ["男","女"],
+    "duty": "死亡之主",
+    "flame_color": ["淺藍色","#82f3ff"]
   },
   "Arsenic": {
+    "atomic_radius": 119,
+    "van_der_waals_radius": 185,
     "density": 5.782,
+    "covalent_radius": 119,
+    "melting": null,
+    "boiling": 887,
+    "lv": 34.76,
+    "electronegativity": 2.18,
+    "ionization_energies": [
+      947,
+      1798,
+      2735
+    ],
+    "important_on": [
+      "+3",
+      "+5"
+    ],
+    "lf": 24.44,
     "on": [
       "−3",
       "−2",
@@ -606,24 +1226,47 @@
       "+4",
       "+5"
     ],
-    "boiling": null,
-    "lf": 24.44,
-    "melting": null,
-    "important_on": [
-      "+3",
-      "+5"
+    "electron_shell": [
+      2,
+      8,
+      18,
+      5
     ],
-    "lv": 34.76
+    "color": {},
+    "god": ["亞絲勒"],
+    "god_sex": ["女"],
+    "duty": "仇恨之主",
+    "flame_color": ["藍色","#1ce68b"]
   },
   "Selenium": {
-    "lv": 95.48,
+    "melting": 494,
+    "van_der_waals_radius": 190,
     "boiling": 958,
-    "density": 4.81,
     "important_on": [
       "+2",
       "+4",
       "+6"
     ],
+    "lv": 95.48,
+    "covalent_radius": 120,
+    "ionization_energies": [
+      1,
+      941,
+      2,
+      2045,
+      3,
+      2973.7
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "electronegativity": 2.55,
+    "atomic_radius": 120,
+    "lf": 6.69,
+    "density": 4.81,
     "on": [
       "−2",
       "−1",
@@ -635,13 +1278,14 @@
       "+5",
       "+6"
     ],
-    "lf": 6.69,
-    "melting": 494
+    "color": {},
+    "god": ["莎莉尼"],
+    "god_sex": ["女"],
+    "duty": "忠誠之主",
+    "flame_color": ["天藍色","#0080FF"]
   },
   "Bromine": {
     "melting": 2,
-    "boiling": 2,
-    "density": 2,
     "on": [
       "−1",
       "0",
@@ -652,75 +1296,203 @@
       "+5",
       "+7"
     ],
-    "lf": 2,
+    "electronegativity": 2.96,
+    "boiling": 2,
+    "lv": 15.438,
+    "atomic_radius": 120,
+    "van_der_waals_radius": 185,
+    "ionization_energies": [
+      347,
+      1139.9,
+      2103
+    ],
     "important_on": [
       "+1",
       "+3",
       "+5"
     ],
-    "lv": null
+    "lf": 2,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "covalent_radius": 120,
+    "density": 2,
+    "color": {},
+    "god": ["布洛敏"],
+    "god_sex": ["女"],
+    "duty": "沉默之主",
+    "flame_color": ["無","#FFFFFF"]
   },
   "Krypton": {
-    "melting": 115.78,
     "boiling": 119.93,
+    "atomic_radius": 88,
+    "density": 3.749,
+    "lv": 9.08,
+    "ionization_energies": [
+      1350.8,
+      2350.4,
+      3565
+    ],
+    "covalent_radius": 116,
+    "important_on": [
+      "0"
+    ],
     "on": [
       "0",
       "+1",
       "+20;"
     ],
-    "lv": 9.08,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "melting": 115.78,
     "lf": 1.64,
-    "density": 3.749,
-    "important_on": [
-      "0"
-    ]
+    "van_der_waals_radius": 202,
+    "electronegativity": 3,
+    "color": {},
+    "god": ["克利柏"],
+    "god_sex": ["女"],
+    "duty": "秘密之主",
+    "flame_color": ["無","#FFFFF"]
   },
   "Rubidium": {
+    "boiling": 961,
+    "important_on": [
+      "+1"
+    ],
+    "van_der_waals_radius": 303,
     "melting": 312.45,
     "density": 1.534,
-    "lf": 2.19,
+    "electronegativity": 0.82,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
     "on": [
       "−1",
       "+1"
     ],
-    "lv": 69,
-    "important_on": [
-      "+1"
+    "ionization_energies": [
+      403,
+      2632.1,
+      3859.4
     ],
-    "boiling": 961
+    "lf": 2.19,
+    "atomic_radius": 248,
+    "lv": 69,
+    "covalent_radius": 220,
+    "color": {},
+    "god": ["路比度"],
+    "god_sex": ["男"],
+    "duty": "憤怒之主",
+    "flame_color": ["紫紅色","#dd39e3"]
   },
   "Strontium": {
-    "lf": 7.43,
     "boiling": 1650,
     "lv": 141,
-    "melting": 1050,
+    "van_der_waals_radius": 249,
+    "electronegativity": 0.95,
+    "lf": 7.43,
     "on": [
       "+1",
       "+2"
     ],
+    "melting": 1050,
+    "density": 2.582,
     "important_on": [
       "+2"
     ],
-    "density": 2.582
+    "ionization_energies": [
+      549.5,
+      1064.2,
+      4138
+    ],
+    "atomic_radius": 215,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      8,
+      2,
+      4
+    ],
+    "covalent_radius": 195,
+    "color": {},
+    "god": ["沙茲洛"],
+    "god_sex": ["男"],
+    "duty": "意志之主",
+    "flame_color": ["赤紅色","#FF2400"]
   },
   "Yttrium": {
-    "melting": 1799,
-    "lv": 363,
-    "lf": 11.42,
-    "important_on": [
-      "+3"
-    ],
-    "density": 4.469,
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
     ],
-    "boiling": 3203
+    "melting": 1799,
+    "density": 4.469,
+    "boiling": 3203,
+    "electronegativity": 1.22,
+    "ionization_energies": [
+      600,
+      1180,
+      1980
+    ],
+    "atomic_radius": 180,
+    "important_on": [
+      "+3"
+    ],
+    "covalent_radius": 190,
+    "van_der_waals_radius": 240,
+    "lv": 363,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "lf": 11.42,
+    "color": {},
+    "god": ["意茲勒"],
+    "god_sex": ["男"],
+    "duty": "星塵之主",
+    "flame_color": ["緋紅色","#DC143C"]
   },
   "Zirconium": {
+    "boiling": 4650,
+    "van_der_waals_radius": 186,
+    "covalent_radius": 175,
     "melting": 2125,
+    "ionization_energies": [
+      640.1,
+      1270,
+      2218
+    ],
+    "density": 6.505,
+    "atomic_radius": 160,
+    "lf": 14,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "important_on": [
+      "+4"
+    ],
+    "lv": 591,
     "on": [
       "−2",
       "0",
@@ -729,20 +1501,21 @@
       "+3",
       "+4"
     ],
-    "boiling": 4650,
-    "lv": 591,
-    "important_on": [
-      "+4"
-    ],
-    "lf": 14,
-    "density": 6.505
+    "electronegativity": 1.33,
+    "color": {},
+    "god": ["茲爾家","茲雅加"],
+    "god_sex": ["男","女"],
+    "duty": "烹飪之主",
+    "flame_color": ["暗紅色","#BB3F3F"]
   },
   "Niobium": {
     "melting": 2750,
-    "lf": 30,
     "important_on": [
       "+5"
     ],
+    "atomic_radius": 146,
+    "boiling": 5017,
+    "electronegativity": 1.6,
     "on": [
       "−3",
       "−1",
@@ -753,13 +1526,46 @@
       "+4",
       "+5"
     ],
+    "density": 8.582,
+    "ionization_energies": [
+      652.1,
+      1380,
+      2416
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "covalent_radius": 164,
     "lv": 689.9,
-    "boiling": 5017,
-    "density": 8.582
+    "lf": 30,
+    "van_der_waals_radius": 207,
+    "color": {},
+    "god": ["妮亞比"],
+    "god_sex": ["女"],
+    "duty": "悲傷之主",
+    "flame_color": ["綠色","#2ce85e"]
   },
   "Molybdenum": {
-    "boiling": 4912,
-    "density": 10.223,
+    "atomic_radius": 139,
+    "melting": 2896,
+    "lf": 37.48,
+    "ionization_energies": [
+      684.3,
+      1560,
+      2618
+    ],
+    "covalent_radius": 154,
+    "important_on": [
+      "+4",
+      "+6",
+      "+4",
+      "+6"
+    ],
+    "electronegativity": 2.16,
     "on": [
       "−4",
       "−2",
@@ -772,21 +1578,30 @@
       "+5",
       "+6"
     ],
-    "lv": 598,
-    "important_on": [
-      "+4",
-      "+6",
-      "+4",
-      "+6"
+    "electron_shell": [
+      2,
+      8,
+      18,
+      13,
+      1
     ],
-    "melting": 2896,
-    "lf": 37.48
+    "boiling": 4912,
+    "density": 10.223,
+    "van_der_waals_radius": 245,
+    "lv": 598,
+    "color": {},
+    "god": ["莫拉都"],
+    "god_sex": ["女"],
+    "duty": "公正之主",
+    "flame_color": ["黃綠色","#BEEE1B"]
   },
   "Technetium": {
-    "important_on": [
-      "+4",
-      "+7"
-    ],
+    "melting": 2430,
+    "lf": 33.29,
+    "lv": 585.2,
+    "van_der_waals_radius": 205,
+    "boiling": 4538,
+    "covalent_radius": 147,
     "on": [
       "−1",
       "0",
@@ -798,16 +1613,55 @@
       "+6",
       "+7"
     ],
-    "lf": 33.29,
     "density": 98,
-    "lv": 585.2,
-    "melting": 2430,
-    "boiling": 4538
+    "important_on": [
+      "+4",
+      "+7"
+    ],
+    "atomic_radius": 136,
+    "ionization_energies": [
+      686.9,
+      1470,
+      2850
+    ],
+    "electronegativity": 1.9,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "color": {},
+    "god": ["塔可勒"],
+    "god_sex": ["女"],
+    "duty": "創造之主",
+    "flame_color": ["未知","#ffffff"]
   },
   "Ruthenium": {
-    "boiling": 4423,
     "melting": 2607,
+    "ionization_energies": [
+      710.2,
+      1620,
+      2747
+    ],
+    "atomic_radius": 134,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "van_der_waals_radius": 205,
+    "boiling": 4423,
     "density": 12.364,
+    "covalent_radius": 146,
+    "important_on": [
+      "+3",
+      "+4"
+    ],
+    "lv": 619,
     "on": [
       "−4",
       "−2",
@@ -821,22 +1675,28 @@
       "+7",
       "+8"
     ],
-    "important_on": [
-      "+3",
-      "+4"
-    ],
+    "electronegativity": 2.2,
     "lf": 38.59,
-    "lv": 619
+    "color": {"2+": ["粉紅色","#FFC0CB"],"3+": ["黃色","#FFFF00"]},
+    "god": ["羅芬妮"],
+    "god_sex": ["女"],
+    "duty": "山脈之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Rhodium": {
     "melting": 2237,
-    "density": 12.423,
-    "lf": 26.59,
-    "boiling": 3968,
     "important_on": [
       "+3",
       "+3"
     ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "van_der_waals_radius": 200,
     "on": [
       "−3",
       "−1",
@@ -849,16 +1709,39 @@
       "+6",
       "+7"
     ],
-    "lv": 493
+    "boiling": 3968,
+    "covalent_radius": 142,
+    "density": 12.423,
+    "electronegativity": 2.28,
+    "lv": 493,
+    "atomic_radius": 134,
+    "ionization_energies": [
+      719.7,
+      1740,
+      2997
+    ],
+    "lf": 26.59,
+    "color": {"3+": ["黃色", "#FFFF00"]},
+    "god": ["洛底亞","勒得婭"],
+    "god_sex": ["男","女"],
+    "duty": "妒忌之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Palladium": {
+    "ionization_energies": [
+      804.4,
+      1870,
+      3177
+    ],
     "melting": 1828.05,
-    "density": 12.007,
     "important_on": [
       "0",
       "+2",
       "+4"
     ],
+    "electronegativity": 2.2,
+    "van_der_waals_radius": 163,
+    "lv": 358,
     "on": [
       "0",
       "+1",
@@ -868,11 +1751,47 @@
       "+5"
     ],
     "lf": 16.74,
+    "density": 12.007,
     "boiling": 3236,
-    "lv": 358
+    "covalent_radius": 139,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "atomic_radius": 137,
+    "color": {"3+": ["紅褐色", "#A52A2A"]},
+    "god": ["洛底亞","勒得婭"],
+    "god_sex": ["男","女"],
+    "duty": "藝術之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Silver": {
+    "ionization_energies": [
+      731.0,
+      2070,
+      3361
+    ],
     "melting": 1234.93,
+    "covalent_radius": 145,
+    "van_der_waals_radius": 172,
+    "lv": 250.58,
+    "important_on": [
+      "+1"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "atomic_radius": 144,
+    "lf": 11.28,
+    "density": 10.503,
+    "electronegativity": 1.93,
+    "boiling": 2435,
     "on": [
       "−2",
       "−1",
@@ -881,31 +1800,71 @@
       "+2",
       "+3"
     ],
-    "density": 10.503,
-    "important_on": [
-      "+1"
-    ],
-    "lf": 11.28,
-    "boiling": 2435,
-    "lv": null
+    "color": {"3+": ["深褐色", "#7d6f51"]},
+    "god": ["阿格特","雅加塔"],
+    "god_sex": ["男","女"],
+    "duty": "鏡花之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Cadmium": {
     "melting": 594.22,
-    "lf": 6.21,
     "on": [
       "−2",
       "+1",
       "+2"
     ],
-    "boiling": 1040,
-    "lv": 99.87,
+    "covalent_radius": 144,
     "density": 8.649,
+    "electronegativity": 1.69,
+    "van_der_waals_radius": 158,
+    "ionization_energies": [
+      867.8,
+      1631.4,
+      3616
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
     "important_on": [
       "+2"
-    ]
+    ],
+    "lf": 6.21,
+    "boiling": 1040,
+    "lv": 99.87,
+    "atomic_radius": 151,
+    "color": {},
+    "god": ["卡米亞"],
+    "god_sex": ["男"],
+    "duty": "傷害之主",
+    "flame_color": ["磚紅色","#AA4A44"]
   },
   "Indium": {
+    "lf": 3.281,
+    "density": 7.29,
     "melting": 429.7485,
+    "important_on": [
+      "+3"
+    ],
+    "ionization_energies": [
+      558.3,
+      1820.7,
+      2704
+    ],
+    "covalent_radius": 142,
+    "lv": 231.8,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "atomic_radius": 167,
+    "electronegativity": 1.78,
     "on": [
       "−5",
       "−2",
@@ -915,22 +1874,38 @@
       "+2",
       "+3"
     ],
-    "lf": 3.281,
-    "important_on": [
-      "+3"
-    ],
+    "van_der_waals_radius": 193,
     "boiling": 2345,
-    "density": 7.29,
-    "lv": 231.8
+    "color": {},
+    "god": ["印迪卡","伊迪赫"],
+    "god_sex": ["男","女"],
+    "duty": "失去之主",
+    "flame_color": ["深靛色","#8A2BE2"]
   },
   "Tin": {
     "melting": 505.08,
-    "density": 7.289,
-    "lf": 7.03,
+    "electronegativity": 1.96,
+    "boiling": 2875,
     "important_on": [
       "+2",
       "+4"
     ],
+    "lv": 296.1,
+    "lf": 7.03,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "ionization_energies": [
+      708.6,
+      1411.8,
+      2943
+    ],
+    "density": 7.289,
+    "covalent_radius": 139,
     "on": [
       "−4",
       "−3",
@@ -942,12 +1917,38 @@
       "+3",
       "+4"
     ],
-    "lv": 296.1,
-    "boiling": 2875
+    "atomic_radius": 140,
+    "van_der_waals_radius": 217,
+    "color": {},
+    "god": ["斯特那","色塔勒"],
+    "god_sex": ["男","女"],
+    "duty": "友誼之主",
+    "flame_color": ["藍白色","#a3c3ff"]
   },
   "Antimony": {
     "melting": 903.78,
+    "covalent_radius": 139,
+    "atomic_radius": 140,
     "lf": 19.79,
+    "lv": 193.43,
+    "density": 6.694,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "van_der_waals_radius": 206,
+    "ionization_energies": [
+      1,
+      834,
+      2,
+      1594.9,
+      3,
+      2440
+    ],
+    "electronegativity": 2.05,
     "boiling": 1908,
     "on": [
       "−3",
@@ -960,15 +1961,29 @@
       "+4",
       "+5"
     ],
-    "density": 6.694,
-    "lv": 193.43,
     "important_on": [
       "+3",
       "+5"
-    ]
+    ],
+    "color": {},
+    "god": ["史德波","莎特比"],
+    "god_sex": ["男","女"],
+    "duty": "美麗之主",
+    "flame_color": ["淺綠色","#d4ffe4"]
   },
   "Tellurium": {
     "melting": 722.66,
+    "important_on": [
+      "+2",
+      "+4",
+      "+6"
+    ],
+    "density": 6.237,
+    "atomic_radius": 140,
+    "covalent_radius": 138,
+    "electronegativity": 2.1,
+    "lf": 17.49,
+    "van_der_waals_radius": 206,
     "on": [
       "−2",
       "−1",
@@ -980,18 +1995,55 @@
       "+5",
       "+6"
     ],
-    "lf": 17.49,
-    "important_on": [
-      "+2",
-      "+4",
-      "+6"
+    "lv": 114.1,
+    "ionization_energies": [
+      869.3,
+      1790,
+      2698
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      6
     ],
     "boiling": 1261,
-    "lv": 114.1,
-    "density": 6.237
+    "color": {},
+    "god": ["特莉絲"],
+    "god_sex": ["女"],
+    "duty": "虛無之主",
+    "flame_color": ["淺綠色","#d4ffe4"]
   },
   "Iodine": {
     "melting": 2,
+    "lv": 41.57,
+    "covalent_radius": 139,
+    "electronegativity": 2.66,
+    "important_on": [
+      "-1",
+      "+1",
+      "+3",
+      "+5",
+      "+7"
+    ],
+    "density": 4.944,
+    "lf": 15.52,
+    "boiling": 2,
+    "ionization_energies": [
+      1008.4,
+      1845.9,
+      3180
+    ],
+    "atomic_radius": 140,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "van_der_waals_radius": 198,
     "on": [
       "−1",
       "0",
@@ -1003,21 +2055,36 @@
       "+6",
       "+7"
     ],
-    "density": 4.944,
-    "boiling": 2,
-    "lv": null,
-    "lf": 2,
-    "important_on": [
-      "+1",
-      "+3",
-      "+5",
-      "+7"
-    ]
+    "color": {},
+    "god": ["亞爾特"],
+    "god_sex": ["女"],
+    "duty": "平安之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Xenon": {
+    "boiling": 165.051,
+    "atomic_radius": null,
     "density": 3.408,
+    "ionization_energies": [
+      1170.4,
+      2046.4,
+      3099.4
+    ],
     "lf": 2.27,
     "melting": 161.4,
+    "van_der_waals_radius": 216,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "important_on": [
+      "0"
+    ],
+    "electronegativity": 2.6,
+    "lv": 12.64,
     "on": [
       "0",
       "+2",
@@ -1025,79 +2092,183 @@
       "+6",
       "+80;"
     ],
-    "important_on": [
-      "0"
-    ],
-    "lv": 12.64,
-    "boiling": 165.051
+    "covalent_radius": 140,
+    "color": {},
+    "god": ["斯諾絲"],
+    "god_sex": ["女"],
+    "duty": "思考之主",
+    "flame_color": ["無","#ffffff"]
   },
-  "Cesium": {
-    "melting": null,
-    "density": null,
-    "boiling": null,
-    "lf": null,
-    "on": [
-      ""
+  "Caesium": {
+    "melting": 301.7,
+    "density": 1.886,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
     ],
-    "lv": null,
-    "important_on": []
+    "lv": 63.9,
+    "atomic_radius": 265,
+    "boiling": 944,
+    "on": [
+      "−1",
+      "+1"
+    ],
+    "van_der_waals_radius": 343,
+    "electronegativity": 0.79,
+    "important_on": [
+      "+1"
+    ],
+    "ionization_energies": [
+      375.7,
+      2234.3,
+      3400
+    ],
+    "covalent_radius": 244,
+    "lf": 2.09,
+    "color": {},
+    "god": ["色斯亞"],
+    "god_sex": ["男"],
+    "duty": "歷史之主",
+    "flame_color": ["淺紫色","#D397F8"]
   },
   "Barium": {
     "melting": 1000,
-    "lf": 7.12,
-    "important_on": [
-      "+2"
-    ],
-    "boiling": 2118,
-    "density": 3.594,
-    "lv": 142,
+    "atomic_radius": 222,
     "on": [
       "+1",
       "+2"
-    ]
+    ],
+    "density": 3.594,
+    "van_der_waals_radius": 268,
+    "important_on": [
+      "+2"
+    ],
+    "covalent_radius": 215,
+    "ionization_energies": [
+      502.9,
+      965.2,
+      3600
+    ],
+    "lf": 7.12,
+    "electronegativity": 0.89,
+    "lv": 142,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "boiling": 2118,
+    "color": {},
+    "god": ["巴里斯"],
+    "god_sex": ["男"],
+    "duty": "平安之主",
+    "flame_color": ["蘋果綠","#76Cd26"]
   },
   "Lanthanum": {
     "melting": 1193,
-    "lf": 6.2,
-    "important_on": [
-      "+3"
-    ],
-    "lv": 400,
-    "density": 6.145,
-    "boiling": 3737,
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
-    ]
+    ],
+    "important_on": [
+      "+3"
+    ],
+    "electronegativity": 1.1,
+    "density": 6.145,
+    "van_der_waals_radius": 250,
+    "atomic_radius": 187,
+    "ionization_energies": [
+      538.1,
+      1067,
+      1850.3
+    ],
+    "lv": 400,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "covalent_radius": 207,
+    "lf": 6.2,
+    "boiling": 3737,
+    "color": {},
+    "god": ["蘭費連"],
+    "god_sex": ["男"],
+    "duty": "影子之主",
+    "flame_color": ["無色","#ffffff"]
   },
   "Cerium": {
-    "melting": 1068,
-    "lf": 5.46,
-    "lv": 398,
-    "density": null,
     "boiling": 3716,
+    "atomic_radius": 181.8,
+    "electronegativity": 1.12,
+    "covalent_radius": 204,
     "on": [
       "+1",
       "+2",
       "+3",
       "+4"
     ],
+    "van_der_waals_radius": 235,
+    "density": 6.76,
+    "ionization_energies": [
+      1,
+      534.4,
+      2,
+      1050,
+      3,
+      1949
+    ],
     "important_on": [
       "+3",
       "+4"
-    ]
+    ],
+    "lf": 5.46,
+    "lv": 398,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "melting": 1068,
+    "color": {},
+    "god": ["史里亞"],
+    "god_sex": ["男"],
+    "duty": "慾望之主",
+    "flame_color": ["黃色","#FFFF00"]
   },
   "Praseodymium": {
-    "melting": 1204,
-    "lv": 331,
-    "lf": 6.89,
     "density": 6.773,
+    "boiling": 3403,
+    "melting": 1204,
+    "ionization_energies": [
+      1,
+      527,
+      2,
+      1020,
+      3,
+      2086
+    ],
+    "atomic_radius": 182,
+    "electronegativity": 1.13,
     "important_on": [
       "+3"
     ],
-    "boiling": 3403,
+    "lf": 6.89,
     "on": [
       "0",
       "+1",
@@ -1105,89 +2276,199 @@
       "+3",
       "+4",
       "+5"
-    ]
+    ],
+    "lv": 331,
+    "covalent_radius": 203,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "van_der_waals_radius": 247,
+    "color": {"3+": ["淺綠色","#3bff29"]},
+    "god": ["史里亞"],
+    "god_sex": ["男"],
+    "duty": "慾望之主",
+    "flame_color": ["淺綠色","#3bff29"]
   },
   "Neodymium": {
-    "melting": 1295,
+    "boiling": 3347,
+    "lf": 7.14,
+    "electronegativity": 1.14,
     "density": 7.007,
+    "melting": 1295,
     "on": [
       "0",
       "+2",
       "+3",
       "+4"
     ],
-    "lf": 7.14,
-    "boiling": 3347,
+    "van_der_waals_radius": 229,
     "important_on": [
       "+3"
     ],
-    "lv": 289
+    "ionization_energies": [
+      533.1,
+      1040,
+      2130
+    ],
+    "covalent_radius": 201,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "lv": 289,
+    "atomic_radius": 181
   },
   "Promethium": {
     "melting": 1315,
+    "ionization_energies": [
+      540,
+      1050,
+      2150
+    ],
     "lf": 7.13,
+    "density": -145,
+    "atomic_radius": 183,
     "important_on": [
       "+3"
     ],
-    "density": -145,
+    "electronegativity": 1.13,
+    "covalent_radius": 199,
+    "boiling": 3273,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
     "lv": 289,
     "on": [
       "+2",
       "+3"
     ],
-    "boiling": 3273
+    "van_der_waals_radius": null
   },
   "Samarium": {
+    "lv": 192,
+    "melting": 1345,
+    "electronegativity": 1.17,
+    "ionization_energies": [
+      1,
+      544.5,
+      2,
+      1070,
+      3,
+      2260
+    ],
+    "important_on": [
+      "+3"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "boiling": 2173,
+    "van_der_waals_radius": null,
+    "lf": 8.62,
+    "covalent_radius": 198,
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
     ],
-    "boiling": 2173,
-    "important_on": [
-      "+3"
-    ],
-    "lf": 8.62,
-    "lv": 192,
     "density": 7.518,
-    "melting": 1345
+    "atomic_radius": 180
   },
   "Europium": {
-    "lf": 9.21,
+    "covalent_radius": 198,
     "melting": 1099,
     "density": 5.246,
+    "van_der_waals_radius": null,
+    "lf": 9.21,
+    "electronegativity": 1.2,
     "lv": 176,
-    "boiling": 1802,
     "on": [
       "0",
       "+2",
       "+3"
     ],
+    "atomic_radius": 180,
     "important_on": [
       "+2",
       "+3"
+    ],
+    "boiling": 1802,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "ionization_energies": [
+      1,
+      547.1,
+      2,
+      1085,
+      3,
+      2404
     ]
   },
   "Gadolinium": {
     "melting": 1585,
+    "electronegativity": 1.2,
     "density": 7.899,
+    "lv": 301.3,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "covalent_radius": 196,
     "boiling": 3546,
-    "lf": 10.05,
+    "van_der_waals_radius": null,
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
     ],
-    "lv": 301.3,
+    "ionization_energies": [
+      1,
+      593.4,
+      2,
+      1170,
+      3,
+      1990
+    ],
+    "atomic_radius": 180,
+    "lf": 10.05,
     "important_on": [
       "+3"
     ]
   },
   "Terbium": {
     "melting": 1629,
-    "density": 8.229,
+    "van_der_waals_radius": null,
     "lf": 10.15,
     "on": [
       "0",
@@ -1196,14 +2477,42 @@
       "+3",
       "+4"
     ],
+    "density": 8.229,
+    "ionization_energies": [
+      1,
+      565.8,
+      2,
+      1110,
+      3,
+      2114
+    ],
+    "covalent_radius": 194,
     "boiling": 3396,
     "important_on": [
       "+3"
+    ],
+    "electronegativity": 1.2,
+    "atomic_radius": 177,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
     ],
     "lv": 391
   },
   "Dysprosium": {
     "melting": 1680,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
     "on": [
       "0",
       "+1",
@@ -1211,23 +2520,55 @@
       "+3",
       "+4"
     ],
-    "lv": 280,
+    "electronegativity": 1.22,
+    "density": 8.55,
     "important_on": [
       "+3"
     ],
-    "density": 8.55,
+    "covalent_radius": 192,
+    "lv": 280,
     "boiling": 2840,
-    "lf": 11.06
+    "lf": 11.06,
+    "ionization_energies": [
+      1,
+      573,
+      2,
+      1130,
+      3,
+      2200
+    ],
+    "atomic_radius": 178,
+    "van_der_waals_radius": null
   },
   "Holmium": {
+    "melting": 1734,
+    "electronegativity": 1.23,
+    "ionization_energies": [
+      1,
+      581,
+      2,
+      1140,
+      3,
+      2204
+    ],
     "boiling": 2873,
+    "lv": 251,
+    "lf": 17,
+    "atomic_radius": 176,
     "density": 8.795,
+    "van_der_waals_radius": null,
     "important_on": [
       "+3"
     ],
-    "lv": 251,
-    "lf": 17,
-    "melting": 1734,
+    "covalent_radius": 192,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
     "on": [
       "0",
       "+1",
@@ -1236,76 +2577,178 @@
     ]
   },
   "Erbium": {
+    "melting": 1802,
+    "electronegativity": 1.24,
+    "van_der_waals_radius": null,
+    "important_on": [
+      "+3"
+    ],
+    "lf": 19.9,
+    "density": 9.065,
+    "lv": 280,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "ionization_energies": [
+      1,
+      589.3,
+      2,
+      1150,
+      3,
+      2194
+    ],
+    "atomic_radius": 176,
+    "boiling": 3141,
     "on": [
       "0",
       "+1",
       "+2",
       "+3"
     ],
-    "melting": 1802,
-    "density": 9.065,
-    "lf": 19.9,
-    "lv": 280,
-    "boiling": 3141,
+    "covalent_radius": 189
+  },
+  "Thulium": {
+    "melting": 1818,
+    "electronegativity": 1.25,
+    "ionization_energies": [
+      1,
+      596.7,
+      2,
+      1160,
+      3,
+      2285
+    ],
+    "atomic_radius": 176,
+    "on": [
+      "0",
+      "+1",
+      "+2",
+      "+3"
+    ],
+    "covalent_radius": 190,
     "important_on": [
+      "+3"
+    ],
+    "density": 9.32,
+    "lf": 16.84,
+    "boiling": 2223,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "lv": 191,
+    "van_der_waals_radius": null
+  },
+  "Ytterbium": {
+    "melting": 1097,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "covalent_radius": 187,
+    "atomic_radius": 176,
+    "van_der_waals_radius": null,
+    "ionization_energies": [
+      1,
+      603.4,
+      2,
+      1174.8,
+      3,
+      2417
+    ],
+    "electronegativity": 1.1,
+    "boiling": 1469,
+    "lv": 129,
+    "lf": 7.66,
+    "density": 6.967,
+    "important_on": [
+      "+3"
+    ],
+    "on": [
+      "0",
+      "+1",
+      "+2",
       "+3"
     ]
   },
-  "Thulium": {
-    "on": [
-      "0",
-      "+1",
-      "+2",
-      "+3"
-    ],
-    "melting": 1818,
-    "lv": 191,
-    "important_on": [
-      "+3"
-    ],
-    "boiling": 2223,
-    "density": 9.32,
-    "lf": 16.84
-  },
-  "Ytterbium": {
-    "boiling": 1469,
-    "important_on": [
-      "+3"
-    ],
-    "lv": 129,
-    "on": [
-      "0",
-      "+1",
-      "+2",
-      "+3"
-    ],
-    "density": 6.967,
-    "melting": 1097,
-    "lf": 7.66
-  },
   "Lutetium": {
-    "boiling": 3675,
     "melting": 1925,
-    "important_on": [
+    "on": [
+      "0",
+      "+1",
+      "+2",
       "+3"
+    ],
+    "van_der_waals_radius": null,
+    "ionization_energies": [
+      1,
+      523.5,
+      2,
+      1340,
+      3,
+      2022.3
     ],
     "density": 9.84,
     "lv": 414,
-    "lf": null,
-    "on": [
-      "0",
-      "+1",
-      "+2",
+    "important_on": [
       "+3"
+    ],
+    "boiling": 3675,
+    "atomic_radius": 174,
+    "lf": null,
+    "covalent_radius": 187,
+    "electronegativity": 1.27,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
     ]
   },
   "Hafnium": {
     "melting": 2506,
+    "lv": 648,
+    "ionization_energies": [
+      1,
+      658.5,
+      2,
+      1440,
+      3,
+      2250
+    ],
+    "van_der_waals_radius": null,
+    "lf": 27.2,
+    "density": 13.281,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
     "important_on": [
       "+4"
     ],
-    "lv": 648,
-    "lf": 27.2,
+    "boiling": 4876,
+    "atomic_radius": 159,
+    "covalent_radius": 175,
+    "electronegativity": 1.3,
     "on": [
       "−2",
       "0",
@@ -1313,12 +2756,21 @@
       "+2",
       "+3",
       "+4"
-    ],
-    "density": 13.281,
-    "boiling": 4876
+    ]
   },
   "Tantalum": {
+    "density": 16.678,
     "melting": 3290,
+    "van_der_waals_radius": null,
+    "lv": 753,
+    "lf": 36.57,
+    "ionization_energies": [
+      1,
+      761,
+      2,
+      1500
+    ],
+    "covalent_radius": 170,
     "on": [
       "−3",
       "−1",
@@ -1329,20 +2781,37 @@
       "+4",
       "+5"
     ],
-    "lf": 36.57,
-    "lv": 753,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
     "important_on": [
       "+5"
     ],
-    "density": 16.678,
+    "atomic_radius": 146,
+    "electronegativity": 1.5,
     "boiling": 5731
   },
   "Tungsten": {
     "melting": 3695,
+    "boiling": 6203,
+    "density": 19.254,
+    "lf": 52.31,
     "important_on": [
       "+4",
       "+6"
     ],
+    "ionization_energies": [
+      1,
+      770,
+      2,
+      1700
+    ],
+    "atomic_radius": 139,
     "on": [
       "−4",
       "−2",
@@ -1355,15 +2824,31 @@
       "+5",
       "+6"
     ],
-    "lf": 52.31,
-    "boiling": 6203,
-    "lv": 774,
-    "density": 19.254
+    "van_der_waals_radius": null,
+    "electronegativity": 2.36,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "covalent_radius": 162,
+    "lv": 774
   },
   "Rhenium": {
-    "melting": 3459,
+    "boiling": 5903,
+    "covalent_radius": 151,
     "lf": 60.43,
-    "lv": 704,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
     "on": [
       "−3",
       "−1",
@@ -1376,16 +2861,37 @@
       "+6",
       "+7"
     ],
-    "boiling": 5903,
     "density": 21.01,
+    "melting": 3459,
     "important_on": [
       "+3",
       "+4",
       "+7"
-    ]
+    ],
+    "van_der_waals_radius": null,
+    "electronegativity": 1.9,
+    "ionization_energies": [
+      1,
+      760,
+      2,
+      1260,
+      3,
+      2510
+    ],
+    "atomic_radius": 137,
+    "lv": 704
   },
   "Osmium": {
-    "boiling": 5281,
+    "melting": 3306,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "van_der_waals_radius": null,
     "important_on": [
       "+2",
       "+3",
@@ -1410,13 +2916,52 @@
       "+7",
       "+8"
     ],
-    "density": 22.589,
     "lf": 31,
+    "atomic_radius": 135,
+    "density": 22.587,
+    "ionization_energies": [
+      1,
+      840,
+      2,
+      1600
+    ],
     "lv": 378,
-    "melting": 3306
+    "covalent_radius": 144,
+    "boiling": 5281,
+    "electronegativity": 2.2
   },
   "Iridium": {
     "melting": 2719,
+    "ionization_energies": [
+      1,
+      880,
+      2,
+      1600
+    ],
+    "important_on": [
+      "+1",
+      "+3",
+      "+4",
+      "+1",
+      "+2",
+      "+3",
+      "+4"
+    ],
+    "lv": 564,
+    "atomic_radius": 136,
+    "covalent_radius": 141,
+    "density": 22.562,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "boiling": 4403,
+    "lf": 41.12,
+    "van_der_waals_radius": null,
     "on": [
       "−3",
       "–2",
@@ -1432,22 +2977,22 @@
       "+8",
       "+9"
     ],
-    "lf": 41.12,
-    "important_on": [
-      "+1",
-      "+3",
-      "+4",
-      "+1",
-      "+2",
-      "+3",
-      "+4"
-    ],
-    "boiling": 4403,
-    "density": 22.562,
-    "lv": 564
+    "electronegativity": 2.2
   },
   "Platinum": {
+    "density": 21.452,
     "melting": 2041.4,
+    "electronegativity": 2.28,
+    "atomic_radius": 139,
+    "covalent_radius": 136,
+    "boiling": 4098,
+    "van_der_waals_radius": 175,
+    "ionization_energies": [
+      1,
+      870,
+      2,
+      1791
+    ],
     "on": [
       "−3",
       "−2",
@@ -1460,17 +3005,43 @@
       "+5",
       "+6"
     ],
-    "boiling": 4098,
-    "lf": 22.17,
-    "density": 21.452,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
     "important_on": [
       "+2",
       "+4"
     ],
-    "lv": 510
+    "lv": 510,
+    "lf": 22.17
   },
   "Gold": {
-    "lv": 342,
+    "lf": 12.55,
+    "ionization_energies": [
+      1,
+      890.1,
+      2,
+      1980
+    ],
+    "density": 19.283,
+    "covalent_radius": 136,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "important_on": [
+      "+1",
+      "+3"
+    ],
     "on": [
       "−3",
       "−2",
@@ -1481,36 +3052,65 @@
       "+3",
       "+5"
     ],
+    "lv": 342,
+    "atomic_radius": 144,
+    "melting": 1337.33,
+    "boiling": 3243,
+    "van_der_waals_radius": 166,
+    "electronegativity": 2.54
+  },
+  "Mercury (element)": {
+    "melting": 234.321,
+    "covalent_radius": 132,
+    "density": 13.546,
+    "ionization_energies": [
+      1,
+      1007.1,
+      2,
+      1810,
+      3,
+      3300
+    ],
+    "atomic_radius": 151,
+    "electronegativity": 2,
+    "lf": 2.29,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "lv": 59.11,
+    "boiling": 629.88,
+    "van_der_waals_radius": 155,
+    "on": [
+      "−2",
+      "+1",
+      "+2"
+    ],
     "important_on": [
       "+1",
-      "+3"
-    ],
-    "density": 19.283,
-    "melting": 1337.33,
-    "lf": 12.55,
-    "boiling": 3243
-  },
-  "Mercury": {
-    "density": null,
-    "melting": null,
-    "lv": null,
-    "important_on": [],
-    "boiling": null,
-    "lf": null,
-    "on": [
-      ""
+      "+2"
     ]
   },
   "Thallium": {
+    "boiling": 1746,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "van_der_waals_radius": 196,
+    "covalent_radius": 145,
     "important_on": [
       "+1",
       "+3"
     ],
-    "lf": 4.14,
-    "lv": 165,
-    "density": 11.873,
-    "melting": 577,
-    "boiling": 1746,
     "on": [
       "−5",
       "−2",
@@ -1518,10 +3118,47 @@
       "+1",
       "+2",
       "+3"
-    ]
+    ],
+    "lv": 165,
+    "ionization_energies": [
+      1,
+      589.4,
+      2,
+      1971,
+      3,
+      2878
+    ],
+    "lf": 4.14,
+    "electronegativity": 1.62,
+    "density": 11.873,
+    "melting": 577,
+    "atomic_radius": 170
   },
   "Lead": {
-    "melting": 600.61,
+    "density": 11.348,
+    "ionization_energies": [
+      1,
+      715.6,
+      2,
+      1450.5,
+      3,
+      3081.5
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "important_on": [
+      "+2",
+      "+4"
+    ],
+    "atomic_radius": 175,
+    "lf": 4.77,
+    "electronegativity": 2.33,
     "on": [
       "−4",
       "−2",
@@ -1532,23 +3169,32 @@
       "+3",
       "+4"
     ],
-    "density": 11.348,
-    "lf": 4.77,
-    "important_on": [
-      "+2",
-      "+4"
-    ],
+    "van_der_waals_radius": 202,
+    "lv": 179.5,
     "boiling": 2022,
-    "lv": 179.5
+    "melting": 600.61,
+    "covalent_radius": 146
   },
   "Bismuth": {
-    "lf": 11.3,
     "melting": 544.7,
-    "lv": 179,
+    "covalent_radius": 148,
+    "atomic_radius": 156,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "electronegativity": 2.02,
+    "lf": 11.3,
     "important_on": [
       "+3"
     ],
     "density": 9.807,
+    "lv": 179,
+    "van_der_waals_radius": 207,
     "boiling": 1837,
     "on": [
       "−3",
@@ -1560,11 +3206,23 @@
       "+3",
       "+4",
       "+5"
+    ],
+    "ionization_energies": [
+      1,
+      703,
+      2,
+      1610,
+      3,
+      2466
     ]
   },
   "Polonium": {
     "melting": 527,
-    "lv": 102.91,
+    "atomic_radius": 168,
+    "important_on": [
+      "+2",
+      "+4"
+    ],
     "on": [
       "−2",
       "+2",
@@ -1572,19 +3230,58 @@
       "+5",
       "+6"
     ],
-    "boiling": 1235,
-    "important_on": [
-      "+2",
-      "+4"
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      812.1
     ],
+    "covalent_radius": 140,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "boiling": 1235,
+    "lv": 102.91,
+    "electronegativity": 2,
     "density": null,
-    "lf": null
+    "lf": null,
+    "van_der_waals_radius": 197
   },
   "Astatine": {
-    "lf": null,
-    "density": 8.91,
     "melting": null,
-    "lv": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
     "on": [
       "−1",
       "+1",
@@ -1592,72 +3289,267 @@
       "+5",
       "+7"
     ],
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      899.003,
+      3
+    ],
+    "atomic_radius": null,
+    "lf": null,
+    "covalent_radius": null,
     "important_on": [
       "+1"
     ],
-    "boiling": null
+    "electronegativity": null,
+    "lv": null,
+    "boiling": null,
+    "density": 8.91,
+    "van_der_waals_radius": null
   },
   "Radon": {
     "melting": 202,
+    "lv": 18.1,
+    "covalent_radius": 150,
+    "important_on": [
+      "0"
+    ],
+    "density": 9.73,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
     "boiling": 211.5,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      1037
+    ],
     "on": [
       "0",
       "+2",
       "+6"
     ],
-    "important_on": [
-      "0"
-    ],
     "lf": 3.247,
-    "density": 9.73,
-    "lv": 18.1
+    "van_der_waals_radius": 220,
+    "electronegativity": 2.2,
+    "atomic_radius": null
   },
   "Francium": {
     "boiling": 950,
+    "lv": null,
+    "density": 2.458,
     "important_on": [
       "+1"
+    ],
+    "electronegativity": 0.79,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "van_der_waals_radius": 348,
+    "atomic_radius": null,
+    "covalent_radius": 260,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      393,
+      2
     ],
     "melting": 300,
     "on": [
       "+1"
     ],
-    "density": 2.458,
-    "lf": null,
-    "lv": null
+    "lf": null
   },
   "Radium": {
-    "boiling": 2010,
+    "van_der_waals_radius": 283,
+    "atomic_radius": null,
+    "electronegativity": 0.9,
+    "important_on": [
+      "+2"
+    ],
+    "lf": 8.5,
     "on": [
       "+2"
     ],
-    "important_on": [
-      "+2"
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      509.3,
+      2,
+      979
     ],
     "density": 5.5,
-    "lf": 8.5,
     "melting": 973,
-    "lv": 113
+    "covalent_radius": 221,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "lv": 113,
+    "boiling": 2010
   },
   "Actinium": {
-    "boiling": 3500,
-    "melting": 1500,
-    "important_on": [
-      "+3"
-    ],
     "on": [
       "+3"
     ],
-    "density": 10,
+    "melting": 1500,
+    "electronegativity": 1.1,
     "lf": 14,
-    "lv": 400
+    "boiling": 3500,
+    "van_der_waals_radius": null,
+    "lv": 400,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      499,
+      2,
+      1170,
+      3,
+      1900
+    ],
+    "covalent_radius": 215,
+    "atomic_radius": null,
+    "important_on": [
+      "+3"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "density": 10
   },
   "Thorium": {
-    "boiling": 5061,
-    "lf": 13.81,
     "melting": 2023,
-    "important_on": [
-      "+4"
-    ],
+    "ionization_energies": [],
+    "density": 11.725,
+    "lv": null,
+    "covalent_radius": 206,
     "on": [
       "−1",
       "+1",
@@ -1665,26 +3557,84 @@
       "+3",
       "+4"
     ],
-    "lv": null,
-    "density": 11.725
+    "atomic_radius": 179.8,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "important_on": [
+      "+4"
+    ],
+    "van_der_waals_radius": null,
+    "electronegativity": 1.3,
+    "boiling": 5061,
+    "lf": 13.81
   },
   "Protactinium": {
-    "boiling": 4300,
+    "melting": 1841,
+    "density": 15.43,
     "on": [
       "+2",
       "+3",
       "+4",
       "+5"
     ],
+    "atomic_radius": 163,
+    "electronegativity": 1.5,
+    "lf": 12.34,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
     "important_on": [
       "+5"
     ],
-    "melting": 1841,
-    "density": 15.43,
+    "van_der_waals_radius": null,
+    "boiling": 4300,
+    "ionization_energies": [
+      1,
+      568
+    ],
     "lv": 481,
-    "lf": 12.34
+    "covalent_radius": 200
   },
   "Uranium": {
+    "boiling": 4404,
+    "electronegativity": 1.38,
+    "van_der_waals_radius": 186,
+    "density": 19.05,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "covalent_radius": 196,
+    "lf": 9.14,
+    "ionization_energies": [
+      1,
+      597.6,
+      2,
+      1420
+    ],
+    "important_on": [
+      "+4",
+      "+6"
+    ],
+    "atomic_radius": 156,
     "on": [
       "−1",
       "+1",
@@ -1695,17 +3645,43 @@
       "+6"
     ],
     "melting": 1405.3,
-    "important_on": [
-      "+4",
-      "+6"
-    ],
-    "density": 19.05,
-    "lf": 9.14,
-    "boiling": 4404,
     "lv": 417.1
   },
   "Neptunium": {
+    "boiling": 4447,
+    "lf": 5.19,
     "density": 20.48,
+    "lv": 336,
+    "van_der_waals_radius": null,
+    "melting": 912,
+    "atomic_radius": 155,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      604.5
+    ],
+    "covalent_radius": 190,
     "on": [
       "+2",
       "+3",
@@ -1714,17 +3690,23 @@
       "+6",
       "+7"
     ],
-    "boiling": 4447,
-    "lv": 336,
-    "lf": 5.19,
-    "melting": 912,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "electronegativity": 1.36,
     "important_on": [
       "+5"
     ]
   },
   "Plutonium": {
     "melting": 912.5,
-    "lf": 2.82,
+    "boiling": 3505,
     "on": [
       "+2",
       "+3",
@@ -1735,17 +3717,57 @@
       "+8"
     ],
     "density": 19.85,
+    "lv": 333.5,
+    "electronegativity": 1.28,
+    "van_der_waals_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      584.7
+    ],
     "important_on": [
       "+4"
     ],
-    "lv": 333.5,
-    "boiling": 3505
+    "lf": 2.82,
+    "covalent_radius": 187,
+    "atomic_radius": 159
   },
   "Americium": {
     "melting": 1449,
     "lv": null,
-    "density": 12,
-    "boiling": 2880,
+    "important_on": [
+      "+3"
+    ],
     "on": [
       "+2",
       "+3",
@@ -1754,159 +3776,564 @@
       "+6",
       "+7"
     ],
+    "electronegativity": 1.3,
+    "covalent_radius": 180,
+    "van_der_waals_radius": null,
     "lf": 14.39,
-    "important_on": [
-      "+3"
-    ]
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      578
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "density": 12,
+    "atomic_radius": 173,
+    "boiling": 2880
   },
   "Curium": {
-    "melting": 1613,
     "boiling": 3383,
+    "lv": null,
+    "density": 13.51,
+    "electronegativity": 1.3,
+    "atomic_radius": 174,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      581
+    ],
+    "van_der_waals_radius": null,
     "important_on": [
       "+3"
     ],
-    "lf": 13.85,
-    "lv": null,
-    "density": 13.51,
+    "melting": 1613,
     "on": [
       "+3",
       "+4",
       "+5",
       "+6"
-    ]
+    ],
+    "covalent_radius": 169,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "lf": 13.85
   },
   "Berkelium": {
     "melting": 1259,
+    "boiling": 2900,
+    "atomic_radius": 170,
     "on": [
       "+2",
       "+3",
       "+4",
       "+5"
     ],
-    "boiling": 2900,
-    "density": 14.78,
-    "important_on": [
-      "+3"
-    ],
-    "lf": 7.92,
-    "lv": null
-  },
-  "Californium": {
-    "melting": 1173,
-    "density": 15.1,
     "important_on": [
       "+3"
     ],
     "lv": null,
+    "electronegativity": 1.3,
+    "density": 14.78,
+    "covalent_radius": null,
+    "ionization_energies": [
+      1,
+      601
+    ],
+    "lf": 7.92,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "van_der_waals_radius": null
+  },
+  "Californium": {
+    "melting": 1173,
+    "density": 15.1,
     "boiling": 1743,
-    "lf": null,
+    "electronegativity": 1.3,
+    "lv": null,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      608,
+      7
+    ],
+    "van_der_waals_radius": null,
+    "atomic_radius": null,
     "on": [
       "+2",
       "+3",
       "+4",
       "+5"
-    ]
-  },
-  "Einsteinium": {
-    "melting": 1133,
-    "boiling": 1269,
+    ],
+    "covalent_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
     "important_on": [
       "+3"
     ],
+    "lf": null
+  },
+  "Einsteinium": {
+    "melting": 1133,
     "on": [
       "+2",
       "+3",
       "+4"
     ],
-    "lf": null,
-    "density": 8.84,
-    "lv": null
-  },
-  "Fermium": {
-    "melting": 1800,
-    "boiling": null,
+    "boiling": 1269,
+    "van_der_waals_radius": null,
+    "covalent_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
     "lf": null,
     "lv": null,
-    "density": 9.7,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      619
+    ],
+    "important_on": [
+      "+3"
+    ],
+    "electronegativity": 1.3,
+    "atomic_radius": null,
+    "density": 8.84
+  },
+  "Fermium": {
+    "boiling": null,
+    "lf": null,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      629,
+      2
+    ],
+    "covalent_radius": null,
+    "important_on": [
+      "+3"
+    ],
     "on": [
       "+2",
       "+3"
     ],
-    "important_on": [
-      "+3"
+    "van_der_waals_radius": null,
+    "electronegativity": 1.3,
+    "melting": 1800,
+    "density": 9.7,
+    "lv": null,
+    "atomic_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
     ]
   },
   "Mendelevium": {
+    "melting": 1100,
+    "electronegativity": 1.3,
+    "van_der_waals_radius": null,
     "important_on": [
       "+3"
     ],
-    "melting": 1100,
+    "density": 10.3,
+    "lv": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "covalent_radius": null,
+    "boiling": null,
+    "ionization_energies": [
+      1,
+      636,
+      2
+    ],
     "on": [
       "+2",
       "+3"
     ],
-    "lv": null,
     "lf": null,
-    "density": 10.3,
-    "boiling": null
+    "atomic_radius": null
   },
   "Nobelium": {
-    "density": 9.9,
+    "melting": 1100,
     "boiling": null,
+    "electronegativity": 1.3,
+    "lv": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "density": 9.9,
+    "lf": null,
+    "on": [
+      "+2",
+      "+3"
+    ],
+    "van_der_waals_radius": null,
+    "ionization_energies": [
+      1,
+      639,
+      4,
+      2,
+      1254.3,
+      3,
+      2605.1
+    ],
+    "atomic_radius": null,
     "important_on": [
       "+2"
     ],
-    "melting": 1100,
-    "lv": null,
-    "on": [
-      "+2",
-      "+3"
-    ],
-    "lf": null
+    "covalent_radius": null
   },
   "Lawrencium": {
     "melting": 1900,
-    "density": 14.4,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      479,
+      4,
+      2,
+      1428,
+      3,
+      2219.1
+    ],
+    "atomic_radius": null,
+    "lv": null,
+    "van_der_waals_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
     "on": [
       "+3"
     ],
     "lf": null,
-    "boiling": null,
     "important_on": [
       "+3"
     ],
-    "lv": null
+    "boiling": null,
+    "covalent_radius": null,
+    "electronegativity": 1.3,
+    "density": 14.4
   },
   "Rutherfordium": {
-    "boiling": 5800,
-    "lv": null,
-    "density": 17,
+    "melting": 2400,
     "important_on": [
       "+3"
     ],
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      580,
+      2,
+      1390,
+      3,
+      2300,
+      2
+    ],
+    "electronegativity": null,
+    "lv": null,
+    "density": 17,
+    "atomic_radius": 150,
     "lf": null,
-    "melting": 2400,
     "on": [
       "+2",
       "+3",
       "+4:"
+    ],
+    "covalent_radius": 157,
+    "boiling": 5800,
+    "van_der_waals_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
     ]
   },
   "Dubnium": {
-    "melting": null,
+    "boiling": null,
+    "electronegativity": null,
     "important_on": [],
+    "lv": null,
+    "lf": null,
+    "melting": null,
+    "density": 21.6,
+    "covalent_radius": 149,
     "on": [
       "+3",
       "+4",
       "+5:"
     ],
-    "boiling": null,
-    "lf": null,
-    "density": 21.6,
-    "lv": null
+    "atomic_radius": 139,
+    "ionization_energies": [
+      1,
+      665,
+      2,
+      1547,
+      3,
+      2378,
+      3
+    ],
+    "van_der_waals_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ]
   },
   "Seaborgium": {
-    "boiling": null,
+    "density": 23,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      757,
+      2,
+      1733,
+      3,
+      2484,
+      1
+    ],
+    "lv": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "covalent_radius": 143,
     "on": [
       "0",
       "+3",
@@ -1914,34 +4341,83 @@
       "+5",
       "+6:"
     ],
+    "electronegativity": null,
+    "lf": null,
+    "van_der_waals_radius": null,
+    "boiling": null,
     "important_on": [
       "+4"
     ],
-    "density": 23,
-    "lv": null,
-    "lf": null,
-    "melting": null
+    "melting": null,
+    "atomic_radius": 132
   },
   "Bohrium": {
-    "density": 26,
+    "melting": null,
+    "electronegativity": null,
+    "van_der_waals_radius": null,
+    "lf": null,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      740,
+      2,
+      1690,
+      3,
+      2570,
+      2
+    ],
     "boiling": null,
-    "lv": null,
+    "important_on": [
+      "+3",
+      "+4",
+      "+5"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "covalent_radius": 141,
     "on": [
       "+3",
       "+4",
       "+5",
       "+7:"
     ],
-    "lf": null,
-    "important_on": [
-      "+3",
-      "+4",
-      "+5"
-    ],
-    "melting": null
+    "lv": null,
+    "density": 26,
+    "atomic_radius": 128
   },
   "Hassium": {
     "melting": null,
+    "electronegativity": null,
+    "atomic_radius": 126,
+    "van_der_waals_radius": null,
     "on": [
       "+2",
       "+3",
@@ -1949,23 +4425,68 @@
       "+6",
       "+8:"
     ],
+    "covalent_radius": 134,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
     "important_on": [
       "+3",
       "+4"
     ],
-    "boiling": null,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      730,
+      2,
+      1760,
+      3,
+      2830,
+      11
+    ],
     "density": 27,
-    "lf": null,
-    "lv": null
+    "boiling": null,
+    "lv": null,
+    "lf": null
   },
   "Meitnerium": {
+    "density": 27,
+    "van_der_waals_radius": null,
     "important_on": [
       "+1",
       "+3",
       "+6"
     ],
     "melting": null,
-    "lf": null,
+    "atomic_radius": 128,
+    "electronegativity": null,
+    "lv": null,
     "on": [
       "+1",
       "+3",
@@ -1974,18 +4495,50 @@
       "+8",
       "+9"
     ],
+    "lf": null,
     "boiling": null,
-    "density": 27,
-    "lv": null
+    "covalent_radius": 129,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "ionization_energies": [
+      1,
+      800,
+      2,
+      1820,
+      3,
+      2900,
+      3
+    ]
   },
   "Darmstadtium": {
-    "boiling": null,
+    "density": 26,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      16,
+      2,
+      3
+    ],
+    "van_der_waals_radius": null,
+    "electronegativity": null,
+    "covalent_radius": 128,
+    "lv": null,
     "important_on": [
       "0",
       "+2",
       "+4"
     ],
-    "density": 26,
+    "lf": null,
     "on": [
       "0",
       "+2",
@@ -1993,11 +4546,31 @@
       "+6",
       "+8"
     ],
-    "lf": null,
     "melting": null,
-    "lv": null
+    "atomic_radius": 132,
+    "ionization_energies": [
+      1,
+      960,
+      2,
+      1890,
+      3,
+      3030,
+      3
+    ],
+    "boiling": null
   },
   "Roentgenium": {
+    "van_der_waals_radius": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      2
+    ],
+    "melting": null,
     "on": [
       "−1",
       "+1",
@@ -2006,17 +4579,74 @@
       "+7"
     ],
     "boiling": null,
-    "lf": null,
-    "density": 22,
+    "ionization_energies": [
+      1,
+      1020,
+      2,
+      2070,
+      3,
+      3080,
+      2
+    ],
+    "covalent_radius": 121,
+    "lv": null,
     "important_on": [
       "+3"
     ],
-    "lv": null,
-    "melting": null
+    "lf": null,
+    "atomic_radius": 138,
+    "density": 22,
+    "electronegativity": null
   },
   "Copernicium": {
-    "melting": 283,
+    "atomic_radius": 147,
+    "lf": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      1155,
+      2,
+      2170,
+      3,
+      3160,
+      1
+    ],
     "lv": null,
+    "boiling": 340,
+    "important_on": [
+      "0",
+      "+2"
+    ],
     "on": [
       "0",
       "+1",
@@ -2024,100 +4654,295 @@
       "+4",
       "+6:"
     ],
-    "lf": null,
+    "covalent_radius": 122,
+    "van_der_waals_radius": null,
+    "electronegativity": null,
     "density": 14,
-    "boiling": 340,
-    "important_on": [
-      "0",
-      "+2"
-    ]
+    "melting": 283
   },
   "Nihonium": {
-    "lf": 7.61,
-    "boiling": 1430,
-    "density": 16,
-    "important_on": [
-      "+1",
-      "+3"
-    ],
     "melting": 700,
+    "atomic_radius": 170,
+    "density": 16,
+    "lf": 7.61,
     "lv": null,
+    "ionization_energies": [],
+    "van_der_waals_radius": null,
     "on": [
       "−1",
       "+1",
       "+3",
       "+5"
-    ]
+    ],
+    "important_on": [
+      "+1",
+      "+3"
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "boiling": 1430,
+    "electronegativity": null,
+    "covalent_radius": 172
   },
   "Flerovium": {
-    "boiling": null,
+    "atomic_radius": 180,
     "important_on": [
       "+2"
     ],
+    "lv": 38,
+    "covalent_radius": 171,
+    "boiling": null,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "electronegativity": null,
     "lf": null,
     "density": 11.4,
+    "van_der_waals_radius": null,
+    "melting": 284,
+    "ionization_energies": [
+      1,
+      832.2,
+      7,
+      2,
+      1600,
+      5,
+      3,
+      3370,
+      5
+    ],
     "on": [
       "0",
       "+1",
       "+2",
       "+4",
       "+6"
-    ],
-    "melting": 284,
-    "lv": 38
+    ]
   },
   "Moscovium": {
     "boiling": 1400,
-    "density": 13.5,
-    "lf": 5.9,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "lv": 138,
     "important_on": [
       "+1",
       "+3"
     ],
+    "electronegativity": null,
+    "covalent_radius": 156,
+    "atomic_radius": 187,
+    "density": 13.5,
+    "van_der_waals_radius": null,
+    "melting": 670,
+    "lf": 5.9,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      538.3,
+      4,
+      2,
+      1760,
+      2,
+      3,
+      2650,
+      2
+    ],
     "on": [
       "+1",
       "+3"
-    ],
-    "lv": 138,
-    "melting": 670
+    ]
   },
   "Livermorium": {
+    "melting": 637,
+    "lv": 42,
     "boiling": 1035,
+    "important_on": [
+      "+2"
+    ],
+    "atomic_radius": 183,
+    "lf": 7.61,
     "on": [
       "−2",
       "+2",
       "+4"
     ],
-    "density": 12.9,
-    "lf": 7.61,
-    "important_on": [
-      "+2"
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
     ],
-    "melting": 637,
-    "lv": 42
+    "density": 12.9,
+    "covalent_radius": 162,
+    "electronegativity": null,
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      663.9,
+      5,
+      2,
+      1330,
+      3,
+      3,
+      2850,
+      3
+    ],
+    "van_der_waals_radius": null
   },
   "Tennessine": {
-    "melting": 623,
     "density": 7.1,
+    "van_der_waals_radius": null,
+    "lv": null,
+    "covalent_radius": 156,
     "important_on": [
       "+1",
       "+3"
     ],
+    "ionization_energies": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      1,
+      742.9,
+      5,
+      2,
+      1435.4,
+      5,
+      3,
+      2161.9,
+      5
+    ],
+    "melting": 623,
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
     "boiling": 883,
-    "lv": null,
+    "atomic_radius": 138,
     "on": [
       "−1",
       "+1",
       "+3",
       "+5"
     ],
+    "electronegativity": null,
     "lf": null
   },
   "Oganesson": {
-    "melting": 325,
     "lf": null,
+    "atomic_radius": 152,
+    "boiling": 450,
+    "melting": 325,
     "density": 7.2,
-    "lv": null,
+    "electronegativity": null,
+    "van_der_waals_radius": null,
+    "covalent_radius": 157,
+    "ionization_energies": [
+      1,
+      860,
+      8,
+      2,
+      1560,
+      8
+    ],
+    "electron_shell": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
     "important_on": [
       "+2",
       "+4"
@@ -2130,6 +4955,6 @@
       "+4",
       "+6"
     ],
-    "boiling": 450
+    "lv": null
   }
 }
