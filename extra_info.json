@@ -27,7 +27,8 @@
     "god": ["夏茲洛","哈茲羅"],
     "god_sex": ["女","男"],
     "duty": "司水之主",
-    "flame_color": ["淺藍色","#ADD8E6"]
+    "flame_color": ["淺藍色","#ADD8E6"],
+    "name": "氫"
   },
   "Helium": {
     "important_on": [
@@ -56,8 +57,9 @@
     "god": ["希里和"],
     "god_sex": ["女"],
     "duty": "堅定之主",
-    "flame_color": ["無","#FFFFF"]
-  },
+    "flame_color": ["無","#FFFFF"],
+    "name": "氫"
+},
   "Lithium": {
     "important_on": [
       "+1"
@@ -88,8 +90,9 @@
     "god": ["里法安"],
     "god_sex": ["男"],
     "duty": "飄羽之主",
-    "flame_color": ["紅色","#ff0000"]
-  },
+    "flame_color": ["紅色","#ff0000"],
+    "name": "氫"
+},
   "Beryllium": {
     "density": 1.845,
     "van_der_waals_radius": 153,
@@ -121,8 +124,9 @@
     "god": ["貝勒里","貝莉莉"],
     "god_sex": ["男","女"],
     "duty": "幸運之主",
-    "flame_color": ["無色","#FFFFFF"]
-  },
+    "flame_color": ["無色","#FFFFFF"],
+    "name": "氫"
+},
   "Boron": {
     "atomic_radius": 90,
     "melting": 2349,
@@ -157,8 +161,9 @@
     "god": ["波拉希"],
     "god_sex": ["女"],
     "duty": "編織之主",
-    "flame_color": ["亮綠色","#25EE34"]
-  },
+    "flame_color": ["亮綠色","#25EE34"],
+    "name": "氫"
+},
   "Carbon": {
     "lv": 355.8,
     "density": 2.266,
@@ -200,8 +205,9 @@
     "god": ["卡百尼"],
     "god_sex": ["女"],
     "duty": "生命之主",
-    "flame_color": ["橙黃色","#FFbb00"]
-  },
+    "flame_color": ["橙黃色","#FFbb00"],
+    "name": "氫"
+},
   "Nitrogen": {
     "atomic_radius": 65,
     "melting": 2,
@@ -238,8 +244,9 @@
     "god": ["亞索塔"],
     "god_sex": ["女"],
     "duty": "百態之主",
-    "flame_color": ["無","#FFFFFF"]
-  },
+    "flame_color": ["無","#FFFFFF"],
+    "name": "氫"
+},
   "Oxygen": {
     "density": 1.429,
     "lf": 2,
@@ -271,8 +278,9 @@
     "god": ["阿西斯"],
     "god_sex": ["女"],
     "duty": "司火之主",
-    "flame_color": ["無","#FFFFFF"]
-  },
+    "flame_color": ["無","#FFFFFF"],
+    "name": "氫"
+},
   "Fluorine": {
     "melting": 2,
     "covalent_radius": 64,
@@ -301,8 +309,9 @@
     "god": ["琺洛萊"],
     "god_sex": ["女"],
     "duty": "恐懼之主",
-    "flame_color": ["無","#FFFFF"]
-  },
+    "flame_color": ["無","#FFFFF"],
+    "name": "氫"
+},
   "Neon": {
     "melting": 24.56,
     "electron_shell": [
@@ -332,8 +341,9 @@
     "god": ["諾芬姆"],
     "god_sex": ["女"],
     "duty": "光明之主",
-    "flame_color": ["紅橙色","#ff3300"]
-  },
+    "flame_color": ["紅橙色","#ff3300"],
+    "name": "氫"
+},
   "Sodium": {
     "boiling": 1156.09,
     "atomic_radius": 186,
@@ -366,8 +376,9 @@
     "god": ["拉齊連"],
     "god_sex": ["男"],
     "duty": "勇氣之主",
-    "flame_color": ["金黃色","#ffdf00"]
-  },
+    "flame_color": ["金黃色","#ffdf00"],
+    "name": "氫"
+},
   "Magnesium": {
     "melting": 923,
     "ionization_energies": [
@@ -400,8 +411,9 @@
     "god": ["馬納斯"],
     "god_sex": ["男"],
     "duty": "希望之主",
-    "flame_color": ["白色","#ffffff"]
-  },
+    "flame_color": ["白色","#ffffff"],
+    "name": "氫"
+},
   "Aluminium": {
     "melting": 933.47,
     "lf": 10.71,
@@ -437,8 +449,9 @@
     "god": ["阿洛綿","亞琉米"],
     "god_sex": ["男","女"],
     "duty": "制空之主",
-    "flame_color": ["白色","#ffffff"]
-  },
+    "flame_color": ["白色","#ffffff"],
+    "name": "氫"
+},
   "Silicon": {
     "ionization_energies": [
       786.5,
@@ -477,8 +490,9 @@
     "god": ["西里新","西那士"],
     "god_sex": ["女","男"],
     "duty": "電子之主",
-    "flame_color": ["藍綠色","#ffffff"]
-  },
+    "flame_color": ["藍綠色","#ffffff"],
+    "name": "氫"
+},
   "Phosphorus": {
     "boiling": 553.7,
     "atomic_radius": 98,
@@ -518,8 +532,9 @@
     "god": ["科茲可"],
     "god_sex": ["女"],
     "duty": "永恆之主",
-    "flame_color": ["淺藍綠色","#ffffff"]
-  },
+    "flame_color": ["淺藍綠色","#ffffff"],
+    "name": "氫"
+},
   "Sulfur": {
     "on": [
       "−2",
@@ -560,8 +575,9 @@
     "god": ["薩由琺"],
     "god_sex": ["女"],
     "duty": "煉獄之主",
-    "flame_color": ["藍色","#444CF4"]
-  },
+    "flame_color": ["藍色","#444CF4"],
+    "name": "氫"
+},
   "Chlorine": {
     "melting": 2,
     "electron_shell": [
@@ -599,8 +615,9 @@
     "god": ["卡里茲"],
     "god_sex": ["女"],
     "duty": "貪婪之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Argon": {
     "melting": 83.81,
     "atomic_radius": 71,
@@ -631,8 +648,9 @@
     "god": ["亞歌絲"],
     "god_sex": ["女"],
     "duty": "和平之主",
-    "flame_color": ["無","#FFFFF"]
-  },
+    "flame_color": ["無","#FFFFF"],
+    "name": "氫"
+},
   "Potassium": {
     "melting": 336.7,
     "electron_shell": [
@@ -665,8 +683,9 @@
     "god": ["卡利亞"],
     "god_sex": ["男"],
     "duty": "喜樂之主",
-    "flame_color": ["丁香紫色","#C8A2C8"]
-  },
+    "flame_color": ["丁香紫色","#C8A2C8"],
+    "name": "氫"
+},
   "Calcium": {
     "melting": 1115,
     "electronegativity": 1,
@@ -695,8 +714,9 @@
     "god": ["卡渥茲"],
     "god_sex": ["男"],
     "duty": "農業之主",
-    "flame_color": ["磚紅色","#AA4A44"]
-  },
+    "flame_color": ["磚紅色","#AA4A44"],
+    "name": "氫"
+},
   "Scandium": {
     "melting": 1814,
     "boiling": 3109,
@@ -731,8 +751,9 @@
     "god": ["斯加典","莎簡度"],
     "god_sex": ["男","女"],
     "duty": "自由之主",
-    "flame_color": ["黃色","#FFFF00"]
-  },
+    "flame_color": ["黃色","#FFFF00"],
+    "name": "氫"
+},
   "Titanium": {
     "ionization_energies": [
       658.8,
@@ -772,8 +793,9 @@
     "god": ["泰塔斯","塔妲絲"],
     "god_sex": ["男","女"],
     "duty": "戰爭之主",
-    "flame_color": ["銀白色","#DADBDD"]
-  },
+    "flame_color": ["銀白色","#DADBDD"],
+    "name": "氫"
+},
   "Vanadium": {
     "important_on": [
       "+2",
@@ -815,8 +837,9 @@
     "god": ["凡納第","琺那得"],
     "god_sex": ["男","女"],
     "duty": "色彩之主",
-    "flame_color": ["黃綠色","#ddf032"]
-  },
+    "flame_color": ["黃綠色","#ddf032"],
+    "name": "氫"
+},
   "Chromium": {
     "melting": 2180,
     "boiling": 2944,
@@ -858,8 +881,9 @@
     "god": ["可魯瑪","卡洛馬"],
     "god_sex": ["女","男"],
     "duty": "夢境之主",
-    "flame_color": ["銀白色","#DADBDD"]
-  },
+    "flame_color": ["銀白色","#DADBDD"],
+    "name": "氫"
+},
   "Manganese": {
     "electron_shell": [
       2,
@@ -901,12 +925,13 @@
     ],
     "lv": 221,
     "atomic_radius": 127,
-    "color": {"2+": ["淺粉色", "#FCC4FF"],"7+": ["粉色", "#F75CFF"]},
-    "god": ["瑪歌尼","馬各拉"],
-    "god_sex": ["女","男"],
-    "duty": "智慧之主",
-    "flame_color": ["黃綠色","#BEEE1B"]
-  },
+    "color": {"3+": ["淺粉色", "#A020F0"]},
+    "god": ["阿伊斯","伊絲妲"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Iron": {
     "melting": 1811,
     "electronegativity": 1.83,
@@ -949,8 +974,9 @@
     "god": ["法倫姆","菲諾姆"],
     "god_sex": ["男","女"],
     "duty": "工業之主",
-    "flame_color": ["金黃色","#FFDA00"]
-  },
+    "flame_color": ["金黃色","#FFDA00"],
+    "name": "氫"
+},
   "Cobalt": {
     "boiling": 3200,
     "van_der_waals_radius": null,
@@ -990,8 +1016,9 @@
     "god": ["可保達","克寶德"],
     "god_sex": ["男","女"],
     "duty": "夜幕之主",
-    "flame_color": ["銀白色","#DADBDD"]
-  },
+    "flame_color": ["銀白色","#DADBDD"],
+    "name": "氫"
+},
   "Nickel": {
     "density": 8.907,
     "atomic_radius": 124,
@@ -1033,8 +1060,9 @@
     "god": ["湼克渥"],
     "god_sex": ["男"],
     "duty": "商業之主",
-    "flame_color": ["銀白色","#DADBDD"]
-  },
+    "flame_color": ["銀白色","#DADBDD"],
+    "name": "氫"
+},
   "Copper": {
     "melting": 1357.77,
     "ionization_energies": [
@@ -1072,8 +1100,9 @@
     "god": ["克柏洛"],
     "god_sex": ["男"],
     "duty": "智慧之主",
-    "flame_color": ["綠藍色","#1ce68b"]
-  },
+    "flame_color": ["綠藍色","#1ce68b"],
+    "name": "氫"
+},
   "Zinc": {
     "ionization_energies": [
       1,
@@ -1111,8 +1140,9 @@
     "god": ["辛克爾","芝尼卡"],
     "god_sex": ["男","女"],
     "duty": "智慧之主",
-    "flame_color": ["綠藍色","#1ce68b"]
-  },
+    "flame_color": ["綠藍色","#1ce68b"],
+    "name": "氫"
+},
   "Gallium": {
     "melting": 302.9146,
     "boiling": 2676,
@@ -1152,8 +1182,9 @@
     "god": ["加里安","伽蘭安"],
     "god_sex": ["男","女"],
     "duty": "腐蝕之主",
-    "flame_color": ["藍色","#1ce68b"]
-  },
+    "flame_color": ["藍色","#1ce68b"],
+    "name": "氫"
+},
   "Germanium": {
     "melting": 1211.4,
     "van_der_waals_radius": 211,
@@ -1194,8 +1225,9 @@
     "god": ["扎馬勒","芝瑪尼"],
     "god_sex": ["男","女"],
     "duty": "死亡之主",
-    "flame_color": ["淺藍色","#82f3ff"]
-  },
+    "flame_color": ["淺藍色","#82f3ff"],
+    "name": "氫"
+},
   "Arsenic": {
     "atomic_radius": 119,
     "van_der_waals_radius": 185,
@@ -1236,8 +1268,9 @@
     "god": ["亞絲勒"],
     "god_sex": ["女"],
     "duty": "仇恨之主",
-    "flame_color": ["藍色","#1ce68b"]
-  },
+    "flame_color": ["藍色","#1ce68b"],
+    "name": "氫"
+},
   "Selenium": {
     "melting": 494,
     "van_der_waals_radius": 190,
@@ -1282,8 +1315,9 @@
     "god": ["莎莉尼"],
     "god_sex": ["女"],
     "duty": "忠誠之主",
-    "flame_color": ["天藍色","#0080FF"]
-  },
+    "flame_color": ["天藍色","#0080FF"],
+    "name": "氫"
+},
   "Bromine": {
     "melting": 2,
     "on": [
@@ -1324,8 +1358,9 @@
     "god": ["布洛敏"],
     "god_sex": ["女"],
     "duty": "沉默之主",
-    "flame_color": ["無","#FFFFFF"]
-  },
+    "flame_color": ["無","#FFFFFF"],
+    "name": "氫"
+},
   "Krypton": {
     "boiling": 119.93,
     "atomic_radius": 88,
@@ -1359,8 +1394,9 @@
     "god": ["克利柏"],
     "god_sex": ["女"],
     "duty": "秘密之主",
-    "flame_color": ["無","#FFFFF"]
-  },
+    "flame_color": ["無","#FFFFF"],
+    "name": "氫"
+},
   "Rubidium": {
     "boiling": 961,
     "important_on": [
@@ -1394,8 +1430,9 @@
     "god": ["路比度"],
     "god_sex": ["男"],
     "duty": "憤怒之主",
-    "flame_color": ["紫紅色","#dd39e3"]
-  },
+    "flame_color": ["紫紅色","#dd39e3"],
+    "name": "氫"
+},
   "Strontium": {
     "boiling": 1650,
     "lv": 141,
@@ -1430,8 +1467,9 @@
     "god": ["沙茲洛"],
     "god_sex": ["男"],
     "duty": "意志之主",
-    "flame_color": ["赤紅色","#FF2400"]
-  },
+    "flame_color": ["赤紅色","#FF2400"],
+    "name": "氫"
+},
   "Yttrium": {
     "on": [
       "0",
@@ -1467,8 +1505,9 @@
     "god": ["意茲勒"],
     "god_sex": ["男"],
     "duty": "星塵之主",
-    "flame_color": ["緋紅色","#DC143C"]
-  },
+    "flame_color": ["緋紅色","#DC143C"],
+    "name": "氫"
+},
   "Zirconium": {
     "boiling": 4650,
     "van_der_waals_radius": 186,
@@ -1506,8 +1545,9 @@
     "god": ["茲爾家","茲雅加"],
     "god_sex": ["男","女"],
     "duty": "烹飪之主",
-    "flame_color": ["暗紅色","#BB3F3F"]
-  },
+    "flame_color": ["暗紅色","#BB3F3F"],
+    "name": "氫"
+},
   "Niobium": {
     "melting": 2750,
     "important_on": [
@@ -1547,8 +1587,9 @@
     "god": ["妮亞比"],
     "god_sex": ["女"],
     "duty": "悲傷之主",
-    "flame_color": ["綠色","#2ce85e"]
-  },
+    "flame_color": ["綠色","#2ce85e"],
+    "name": "氫"
+},
   "Molybdenum": {
     "atomic_radius": 139,
     "melting": 2896,
@@ -1593,8 +1634,9 @@
     "god": ["莫拉都"],
     "god_sex": ["女"],
     "duty": "公正之主",
-    "flame_color": ["黃綠色","#BEEE1B"]
-  },
+    "flame_color": ["黃綠色","#BEEE1B"],
+    "name": "氫"
+},
   "Technetium": {
     "melting": 2430,
     "lf": 33.29,
@@ -1636,8 +1678,9 @@
     "god": ["塔可勒"],
     "god_sex": ["女"],
     "duty": "創造之主",
-    "flame_color": ["未知","#ffffff"]
-  },
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Ruthenium": {
     "melting": 2607,
     "ionization_energies": [
@@ -1681,8 +1724,9 @@
     "god": ["羅芬妮"],
     "god_sex": ["女"],
     "duty": "山脈之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Rhodium": {
     "melting": 2237,
     "important_on": [
@@ -1725,8 +1769,9 @@
     "god": ["洛底亞","勒得婭"],
     "god_sex": ["男","女"],
     "duty": "妒忌之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Palladium": {
     "ionization_energies": [
       804.4,
@@ -1765,8 +1810,9 @@
     "god": ["洛底亞","勒得婭"],
     "god_sex": ["男","女"],
     "duty": "藝術之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Silver": {
     "ionization_energies": [
       731.0,
@@ -1804,8 +1850,9 @@
     "god": ["阿格特","雅加塔"],
     "god_sex": ["男","女"],
     "duty": "鏡花之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Cadmium": {
     "melting": 594.22,
     "on": [
@@ -1840,8 +1887,9 @@
     "god": ["卡米亞"],
     "god_sex": ["男"],
     "duty": "傷害之主",
-    "flame_color": ["磚紅色","#AA4A44"]
-  },
+    "flame_color": ["磚紅色","#AA4A44"],
+    "name": "氫"
+},
   "Indium": {
     "lf": 3.281,
     "density": 7.29,
@@ -1880,8 +1928,9 @@
     "god": ["印迪卡","伊迪赫"],
     "god_sex": ["男","女"],
     "duty": "失去之主",
-    "flame_color": ["深靛色","#8A2BE2"]
-  },
+    "flame_color": ["深靛色","#8A2BE2"],
+    "name": "氫"
+},
   "Tin": {
     "melting": 505.08,
     "electronegativity": 1.96,
@@ -1923,8 +1972,9 @@
     "god": ["斯特那","色塔勒"],
     "god_sex": ["男","女"],
     "duty": "友誼之主",
-    "flame_color": ["藍白色","#a3c3ff"]
-  },
+    "flame_color": ["藍白色","#a3c3ff"],
+    "name": "氫"
+},
   "Antimony": {
     "melting": 903.78,
     "covalent_radius": 139,
@@ -1969,8 +2019,9 @@
     "god": ["史德波","莎特比"],
     "god_sex": ["男","女"],
     "duty": "美麗之主",
-    "flame_color": ["淺綠色","#d4ffe4"]
-  },
+    "flame_color": ["淺綠色","#d4ffe4"],
+    "name": "氫"
+},
   "Tellurium": {
     "melting": 722.66,
     "important_on": [
@@ -2013,8 +2064,9 @@
     "god": ["特莉絲"],
     "god_sex": ["女"],
     "duty": "虛無之主",
-    "flame_color": ["淺綠色","#d4ffe4"]
-  },
+    "flame_color": ["淺綠色","#d4ffe4"],
+    "name": "氫"
+},
   "Iodine": {
     "melting": 2,
     "lv": 41.57,
@@ -2059,8 +2111,9 @@
     "god": ["亞爾特"],
     "god_sex": ["女"],
     "duty": "平安之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Xenon": {
     "boiling": 165.051,
     "atomic_radius": null,
@@ -2097,8 +2150,9 @@
     "god": ["斯諾絲"],
     "god_sex": ["女"],
     "duty": "思考之主",
-    "flame_color": ["無","#ffffff"]
-  },
+    "flame_color": ["無","#ffffff"],
+    "name": "氫"
+},
   "Caesium": {
     "melting": 301.7,
     "density": 1.886,
@@ -2133,8 +2187,9 @@
     "god": ["色斯亞"],
     "god_sex": ["男"],
     "duty": "歷史之主",
-    "flame_color": ["淺紫色","#D397F8"]
-  },
+    "flame_color": ["淺紫色","#D397F8"],
+    "name": "氫"
+},
   "Barium": {
     "melting": 1000,
     "atomic_radius": 222,
@@ -2169,8 +2224,9 @@
     "god": ["巴里斯"],
     "god_sex": ["男"],
     "duty": "平安之主",
-    "flame_color": ["蘋果綠","#76Cd26"]
-  },
+    "flame_color": ["蘋果綠","#76Cd26"],
+    "name": "氫"
+},
   "Lanthanum": {
     "melting": 1193,
     "on": [
@@ -2207,8 +2263,9 @@
     "god": ["蘭費連"],
     "god_sex": ["男"],
     "duty": "影子之主",
-    "flame_color": ["無色","#ffffff"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Cerium": {
     "boiling": 3716,
     "atomic_radius": 181.8,
@@ -2249,8 +2306,9 @@
     "god": ["史里亞"],
     "god_sex": ["男"],
     "duty": "慾望之主",
-    "flame_color": ["黃色","#FFFF00"]
-  },
+    "flame_color": ["黃色","#FFFF00"],
+    "name": "氫"
+},
   "Praseodymium": {
     "density": 6.773,
     "boiling": 3403,
@@ -2292,8 +2350,9 @@
     "god": ["史里亞"],
     "god_sex": ["男"],
     "duty": "慾望之主",
-    "flame_color": ["淺綠色","#3bff29"]
-  },
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Neodymium": {
     "boiling": 3347,
     "lf": 7.14,
@@ -2325,8 +2384,14 @@
       2
     ],
     "lv": 289,
-    "atomic_radius": 181
-  },
+    "atomic_radius": 181,
+    "color": {"3+": ["丁香紫色","#C8A2C8"]},
+    "god": ["利厄底"],
+    "god_sex": ["男"],
+    "duty": "戲劇之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Promethium": {
     "melting": 1315,
     "ionization_energies": [
@@ -2356,18 +2421,21 @@
       "+2",
       "+3"
     ],
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": 243,
+    "color": {"3+": ["粉紅色","#C8A2C8"]},
+    "god": ["珀洛米"],
+    "god_sex": ["男"],
+    "duty": "善良之主",
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Samarium": {
     "lv": 192,
     "melting": 1345,
     "electronegativity": 1.17,
     "ionization_energies": [
-      1,
       544.5,
-      2,
       1070,
-      3,
       2260
     ],
     "important_on": [
@@ -2382,7 +2450,7 @@
       2
     ],
     "boiling": 2173,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 242,
     "lf": 8.62,
     "covalent_radius": 198,
     "on": [
@@ -2392,13 +2460,19 @@
       "+3"
     ],
     "density": 7.518,
-    "atomic_radius": 180
-  },
+    "atomic_radius": 180,
+    "color": {"2+": ["紅色","#FF0000"],"3+": ["黃色","#FFFF00"]},
+    "god": ["沙馬林"],
+    "god_sex": ["男"],
+    "duty": "規律之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Europium": {
     "covalent_radius": 198,
     "melting": 1099,
     "density": 5.246,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 240,
     "lf": 9.21,
     "electronegativity": 1.2,
     "lv": 176,
@@ -2422,14 +2496,17 @@
       2
     ],
     "ionization_energies": [
-      1,
       547.1,
-      2,
       1085,
-      3,
       2404
-    ]
-  },
+    ],
+    "color": {"3+": ["淺粉色","#FCC4FF"]},
+    "god": ["兒洛柏"],
+    "god_sex": ["男"],
+    "duty": "革命之主",
+    "flame_color": ["紅色","#FF0000"],
+    "name": "氫"
+},
   "Gadolinium": {
     "melting": 1585,
     "electronegativity": 1.2,
@@ -2445,7 +2522,7 @@
     ],
     "covalent_radius": 196,
     "boiling": 3546,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 279,
     "on": [
       "0",
       "+1",
@@ -2453,22 +2530,25 @@
       "+3"
     ],
     "ionization_energies": [
-      1,
       593.4,
-      2,
       1170,
-      3,
       1990
     ],
     "atomic_radius": 180,
     "lf": 10.05,
     "important_on": [
       "+3"
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["伽度連"],
+    "god_sex": ["男"],
+    "duty": "寒冷之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Terbium": {
     "melting": 1629,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 237,
     "lf": 10.15,
     "on": [
       "0",
@@ -2479,11 +2559,8 @@
     ],
     "density": 8.229,
     "ionization_energies": [
-      1,
       565.8,
-      2,
       1110,
-      3,
       2114
     ],
     "covalent_radius": 194,
@@ -2501,8 +2578,14 @@
       8,
       2
     ],
-    "lv": 391
-  },
+    "lv": 391,
+    "color": {"3+": ["淺粉色","#FCC4FF"]},
+    "god": ["托比昂"],
+    "god_sex": ["男"],
+    "duty": "音樂之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Dysprosium": {
     "melting": 1680,
     "electron_shell": [
@@ -2530,16 +2613,19 @@
     "boiling": 2840,
     "lf": 11.06,
     "ionization_energies": [
-      1,
       573,
-      2,
       1130,
-      3,
       2200
     ],
     "atomic_radius": 178,
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": 235,
+    "color": {"3+": ["黃色","#FFFF00"]},
+    "god": ["戴斯普"],
+    "god_sex": ["男"],
+    "duty": "數字之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Holmium": {
     "melting": 1734,
     "electronegativity": 1.23,
@@ -2556,7 +2642,7 @@
     "lf": 17,
     "atomic_radius": 176,
     "density": 8.795,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 233,
     "important_on": [
       "+3"
     ],
@@ -2574,12 +2660,18 @@
       "+1",
       "+2",
       "+3"
-    ]
-  },
+    ],
+    "color": {"3+": ["黃色","#FFFF00"]},
+    "god": ["何米亞"],
+    "god_sex": ["男"],
+    "duty": "島嶼之主",
+    "flame_color": ["黃綠色","#BEEE1B"],
+    "name": "氫"
+},
   "Erbium": {
     "melting": 1802,
     "electronegativity": 1.24,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 232,
     "important_on": [
       "+3"
     ],
@@ -2595,11 +2687,8 @@
       2
     ],
     "ionization_energies": [
-      1,
       589.3,
-      2,
       1150,
-      3,
       2194
     ],
     "atomic_radius": 176,
@@ -2610,17 +2699,20 @@
       "+2",
       "+3"
     ],
-    "covalent_radius": 189
-  },
+    "covalent_radius": 189,
+    "color": {"3+": ["粉紅色","#ff69f0"]},
+    "god": ["爾比亞"],
+    "god_sex": ["男"],
+    "duty": "沙漠之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Thulium": {
     "melting": 1818,
     "electronegativity": 1.25,
     "ionization_energies": [
-      1,
       596.7,
-      2,
       1160,
-      3,
       2285
     ],
     "atomic_radius": 176,
@@ -2646,8 +2738,14 @@
       2
     ],
     "lv": 191,
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": 230,
+    "color": {"2+": ["紫紅色","#eb268f"],"3+": ["淺綠色","#3bff29"]},
+    "god": ["霍利昂"],
+    "god_sex": ["男"],
+    "duty": "孤獨之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Ytterbium": {
     "melting": 1097,
     "electron_shell": [
@@ -2660,13 +2758,10 @@
     ],
     "covalent_radius": 187,
     "atomic_radius": 176,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 228,
     "ionization_energies": [
-      1,
       603.4,
-      2,
       1174.8,
-      3,
       2417
     ],
     "electronegativity": 1.1,
@@ -2682,8 +2777,14 @@
       "+1",
       "+2",
       "+3"
-    ]
-  },
+    ],
+    "color": {"2+": ["綠色","#FCC4FF"]},
+    "god": ["戴斯普"],
+    "god_sex": ["男"],
+    "duty": "數字之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Lutetium": {
     "melting": 1925,
     "on": [
@@ -2692,13 +2793,10 @@
       "+2",
       "+3"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 227,
     "ionization_energies": [
-      1,
       523.5,
-      2,
       1340,
-      3,
       2022.3
     ],
     "density": 9.84,
@@ -2708,7 +2806,7 @@
     ],
     "boiling": 3675,
     "atomic_radius": 174,
-    "lf": null,
+    "lf": 18.6,
     "covalent_radius": 187,
     "electronegativity": 1.27,
     "electron_shell": [
@@ -2718,20 +2816,23 @@
       32,
       9,
       2
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["伊提比"],
+    "god_sex": ["男"],
+    "duty": "政治之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Hafnium": {
     "melting": 2506,
     "lv": 648,
     "ionization_energies": [
-      1,
       658.5,
-      2,
       1440,
-      3,
       2250
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 225,
     "lf": 27.2,
     "density": 13.281,
     "electron_shell": [
@@ -2756,18 +2857,22 @@
       "+2",
       "+3",
       "+4"
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["盧特他"],
+    "god_sex": ["男"],
+    "duty": "愛意之主",
+    "flame_color": ["白色","#ffffff"],
+    "name": "氫"
+},
   "Tantalum": {
     "density": 16.678,
     "melting": 3290,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 220,
     "lv": 753,
     "lf": 36.57,
     "ionization_energies": [
-      1,
       761,
-      2,
       1500
     ],
     "covalent_radius": 170,
@@ -2794,8 +2899,14 @@
     ],
     "atomic_radius": 146,
     "electronegativity": 1.5,
-    "boiling": 5731
-  },
+    "boiling": 5731,
+    "color": {},
+    "god": ["泰塔琳"],
+    "god_sex": ["女"],
+    "duty": "嬰兒之主",
+    "flame_color": ["藍色","#1ce68b"],
+    "name": "氫"
+},
   "Tungsten": {
     "melting": 3695,
     "boiling": 6203,
@@ -2806,9 +2917,7 @@
       "+6"
     ],
     "ionization_energies": [
-      1,
       770,
-      2,
       1700
     ],
     "atomic_radius": 139,
@@ -2824,7 +2933,7 @@
       "+5",
       "+6"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 210,
     "electronegativity": 2.36,
     "electron_shell": [
       2,
@@ -2835,8 +2944,14 @@
       2
     ],
     "covalent_radius": 162,
-    "lv": 774
-  },
+    "lv": 774,
+    "color": {},
+    "god": ["沃法蘭"],
+    "god_sex": ["女"],
+    "duty": "深淵之主",
+    "flame_color": ["綠色","#FCC4FF"],
+    "name": "氫"
+},
   "Rhenium": {
     "boiling": 5903,
     "covalent_radius": 151,
@@ -2868,19 +2983,22 @@
       "+4",
       "+7"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 205,
     "electronegativity": 1.9,
     "ionization_energies": [
-      1,
       760,
-      2,
       1260,
-      3,
       2510
     ],
     "atomic_radius": 137,
-    "lv": 704
-  },
+    "lv": 704,
+    "color": {},
+    "god": ["萊樂絲"],
+    "god_sex": ["女"],
+    "duty": "釀造之主",
+    "flame_color": ["淺綠色","#3bff29"],
+    "name": "氫"
+},
   "Osmium": {
     "melting": 3306,
     "electron_shell": [
@@ -2891,7 +3009,7 @@
       14,
       2
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "important_on": [
       "+2",
       "+3",
@@ -2920,22 +3038,24 @@
     "atomic_radius": 135,
     "density": 22.587,
     "ionization_energies": [
-      1,
       840,
-      2,
       1600
     ],
     "lv": 378,
     "covalent_radius": 144,
     "boiling": 5281,
-    "electronegativity": 2.2
-  },
+    "electronegativity": 2.2,
+    "color": {},
+    "god": ["華斯麥"],
+    "god_sex": ["女"],
+    "duty": "天使之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Iridium": {
     "melting": 2719,
     "ionization_energies": [
-      1,
       880,
-      2,
       1600
     ],
     "important_on": [
@@ -2961,7 +3081,7 @@
     ],
     "boiling": 4403,
     "lf": 41.12,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 202,
     "on": [
       "−3",
       "–2",
@@ -2977,8 +3097,14 @@
       "+8",
       "+9"
     ],
-    "electronegativity": 2.2
-  },
+    "electronegativity": 2.2,
+    "color": {},
+    "god": ["伊莉特"],
+    "god_sex": ["女"],
+    "duty": "彩虹之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Platinum": {
     "density": 21.452,
     "melting": 2041.4,
@@ -3018,14 +3144,18 @@
       "+4"
     ],
     "lv": 510,
-    "lf": 22.17
-  },
+    "lf": 22.17,
+    "color": {"2+": ["黃色","#FFFF00"]},
+    "god": ["帕勒提"],
+    "god_sex": ["男"],
+    "duty": "帝王之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Gold": {
     "lf": 12.55,
     "ionization_energies": [
-      1,
       890.1,
-      2,
       1980
     ],
     "density": 19.283,
@@ -3057,18 +3187,21 @@
     "melting": 1337.33,
     "boiling": 3243,
     "van_der_waals_radius": 166,
-    "electronegativity": 2.54
-  },
-  "Mercury (element)": {
+    "electronegativity": 2.54,
+    "color": {},
+    "god": ["柯洛莫","亞利姆"],
+    "god_sex": ["男","女"],
+    "duty": "高貴之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
+  "Mercury": {
     "melting": 234.321,
     "covalent_radius": 132,
     "density": 13.546,
     "ionization_energies": [
-      1,
       1007.1,
-      2,
       1810,
-      3,
       3300
     ],
     "atomic_radius": 151,
@@ -3093,8 +3226,14 @@
     "important_on": [
       "+1",
       "+2"
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["莫可勒"],
+    "god_sex": ["男"],
+    "duty": "高貴之主",
+    "flame_color": ["紅色","#FF0000"],
+    "name": "氫"
+},
   "Thallium": {
     "boiling": 1746,
     "electron_shell": [
@@ -3121,27 +3260,27 @@
     ],
     "lv": 165,
     "ionization_energies": [
-      1,
       589.4,
-      2,
       1971,
-      3,
       2878
     ],
     "lf": 4.14,
     "electronegativity": 1.62,
     "density": 11.873,
     "melting": 577,
-    "atomic_radius": 170
-  },
+    "atomic_radius": 170,
+    "color": {},
+    "god": ["弗洛士"],
+    "god_sex": ["男"],
+    "duty": "欺暪之主",
+    "flame_color": ["綠色","#FCC4FF"],
+    "name": "氫"
+},
   "Lead": {
     "density": 11.348,
     "ionization_energies": [
-      1,
       715.6,
-      2,
       1450.5,
-      3,
       3081.5
     ],
     "electron_shell": [
@@ -3173,8 +3312,14 @@
     "lv": 179.5,
     "boiling": 2022,
     "melting": 600.61,
-    "covalent_radius": 146
-  },
+    "covalent_radius": 146,
+    "color": {},
+    "god": ["柏朗保","普妮保"],
+    "god_sex": ["男","女"],
+    "duty": "愚笨之主",
+    "flame_color": ["藍白色","#a3c3ff"],
+    "name": "氫"
+},
   "Bismuth": {
     "melting": 544.7,
     "covalent_radius": 148,
@@ -3208,14 +3353,17 @@
       "+5"
     ],
     "ionization_energies": [
-      1,
       703,
-      2,
       1610,
-      3,
       2466
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["寶絲密"],
+    "god_sex": ["女"],
+    "duty": "時間之主",
+    "flame_color": ["天藍色","#0080FF"],
+    "name": "氫"
+},
   "Polonium": {
     "melting": 527,
     "atomic_radius": 168,
@@ -3231,29 +3379,6 @@
       "+6"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       812.1
     ],
     "covalent_radius": 140,
@@ -3268,12 +3393,18 @@
     "boiling": 1235,
     "lv": 102.91,
     "electronegativity": 2,
-    "density": null,
-    "lf": null,
-    "van_der_waals_radius": 197
-  },
+    "density": 9.4,
+    "lf": 13,
+    "van_der_waals_radius": 197,
+    "color": {},
+    "god": ["普勒納","普羅娜"],
+    "god_sex": ["女"],
+    "duty": "墮落之主",
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Astatine": {
-    "melting": null,
+    "melting": 301.8,
     "electron_shell": [
       2,
       8,
@@ -3290,44 +3421,26 @@
       "+7"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
-      899.003,
-      3
+      899.003
     ],
-    "atomic_radius": null,
-    "lf": null,
-    "covalent_radius": null,
+    "atomic_radius": 127,
+    "lf": 6,
+    "covalent_radius": 150,
     "important_on": [
       "+1"
     ],
-    "electronegativity": null,
-    "lv": null,
-    "boiling": null,
+    "electronegativity": 2.2,
+    "lv": 40,
+    "boiling": 336.8,
     "density": 8.91,
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": 202,
+    "color": {},
+    "god": ["亞沙德"],
+    "god_sex": ["男"],
+    "duty": "瘋狂之主",
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Radon": {
     "melting": 202,
     "lv": 18.1,
@@ -3346,29 +3459,6 @@
     ],
     "boiling": 211.5,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       1037
     ],
     "on": [
@@ -3379,11 +3469,17 @@
     "lf": 3.247,
     "van_der_waals_radius": 220,
     "electronegativity": 2.2,
-    "atomic_radius": null
-  },
+    "atomic_radius": 134,
+    "color": {},
+    "god": ["黎冬爾"],
+    "god_sex": ["女"],
+    "duty": "罪惡之主",
+    "flame_color": ["無","#ffffff"],
+    "name": "氫"
+},
   "Francium": {
     "boiling": 950,
-    "lv": null,
+    "lv": 64,
     "density": 2.458,
     "important_on": [
       "+1"
@@ -3399,44 +3495,26 @@
       1
     ],
     "van_der_waals_radius": 348,
-    "atomic_radius": null,
+    "atomic_radius": 270,
     "covalent_radius": 260,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
-      393,
-      2
+      393
     ],
     "melting": 300,
     "on": [
       "+1"
     ],
-    "lf": null
-  },
+    "lf": 2,
+    "color": {},
+    "god": ["法朗斯"],
+    "god_sex": ["男"],
+    "duty": "詩歌之主",
+    "flame_color": ["無","#ffffff"],
+    "name": "氫"
+},
   "Radium": {
     "van_der_waals_radius": 283,
-    "atomic_radius": null,
+    "atomic_radius": 215,
     "electronegativity": 0.9,
     "important_on": [
       "+2"
@@ -3446,31 +3524,7 @@
       "+2"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       509.3,
-      2,
       979
     ],
     "density": 5.5,
@@ -3486,8 +3540,14 @@
       2
     ],
     "lv": 113,
-    "boiling": 2010
-  },
+    "boiling": 2010,
+    "color": {},
+    "god": ["黎地安"],
+    "god_sex": ["男"],
+    "duty": "法律之主",
+    "flame_color": ["緋紅色","#DC143C"],
+    "name": "氫"
+},
   "Actinium": {
     "on": [
       "+3"
@@ -3496,40 +3556,15 @@
     "electronegativity": 1.1,
     "lf": 14,
     "boiling": 3500,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "lv": 400,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       499,
-      2,
       1170,
-      3,
       1900
     ],
     "covalent_radius": 215,
-    "atomic_radius": null,
+    "atomic_radius": 195,
     "important_on": [
       "+3"
     ],
@@ -3542,13 +3577,23 @@
       9,
       2
     ],
-    "density": 10
-  },
+    "density": 10,
+    "color": {},
+    "god": ["阿提洛"],
+    "god_sex": ["男"],
+    "duty": "信仰之主",
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Thorium": {
     "melting": 2023,
-    "ionization_energies": [],
+    "ionization_energies": [
+      587,
+      1110,
+      1930
+  ],
     "density": 11.725,
-    "lv": null,
+    "lv": 514.4,
     "covalent_radius": 206,
     "on": [
       "−1",
@@ -3570,11 +3615,17 @@
     "important_on": [
       "+4"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 240,
     "electronegativity": 1.3,
     "boiling": 5061,
-    "lf": 13.81
-  },
+    "lf": 13.81,
+    "color": {},
+    "god": ["霍勒安"],
+    "god_sex": ["男"],
+    "duty": "雷霆之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Protactinium": {
     "melting": 1841,
     "density": 15.43,
@@ -3599,15 +3650,20 @@
     "important_on": [
       "+5"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "boiling": 4300,
     "ionization_energies": [
-      1,
       568
     ],
     "lv": 481,
-    "covalent_radius": 200
-  },
+    "covalent_radius": 200,
+    "color": {},
+    "god": ["普洛陶"],
+    "god_sex": ["男"],
+    "duty": "純淨之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Uranium": {
     "boiling": 4404,
     "electronegativity": 1.38,
@@ -3625,9 +3681,7 @@
     "covalent_radius": 196,
     "lf": 9.14,
     "ionization_energies": [
-      1,
       597.6,
-      2,
       1420
     ],
     "important_on": [
@@ -3645,40 +3699,23 @@
       "+6"
     ],
     "melting": 1405.3,
-    "lv": 417.1
-  },
+    "lv": 417.1,
+    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#FCC4FF"]},
+    "god": ["奧蘭納","烏蘭妮"],
+    "god_sex": ["男","女"],
+    "duty": "毀滅之主",
+    "flame_color": ["無色","#ffffff"],
+    "name": "氫"
+},
   "Neptunium": {
     "boiling": 4447,
     "lf": 5.19,
     "density": 20.48,
     "lv": 336,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "melting": 912,
     "atomic_radius": 155,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       604.5
     ],
     "covalent_radius": 190,
@@ -3702,8 +3739,14 @@
     "electronegativity": 1.36,
     "important_on": [
       "+5"
-    ]
-  },
+    ],
+    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#FCC4FF"]},
+    "god": ["拿柏圖","尼帕特"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Plutonium": {
     "melting": 912.5,
     "boiling": 3505,
@@ -3719,7 +3762,7 @@
     "density": 19.85,
     "lv": 333.5,
     "electronegativity": 1.28,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "electron_shell": [
       2,
       8,
@@ -3730,29 +3773,6 @@
       2
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       584.7
     ],
     "important_on": [
@@ -3760,11 +3780,17 @@
     ],
     "lf": 2.82,
     "covalent_radius": 187,
-    "atomic_radius": 159
-  },
+    "atomic_radius": 159,
+    "color": {"3+": ["藍丁香色","#8B88F8"],"4+": ["棕黃色", "#9B7A01"]},
+    "god": ["皮那塔","帕魯托"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Americium": {
     "melting": 1449,
-    "lv": null,
+    "lv": 238.5,
     "important_on": [
       "+3"
     ],
@@ -3778,32 +3804,9 @@
     ],
     "electronegativity": 1.3,
     "covalent_radius": 180,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 244,
     "lf": 14.39,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       578
     ],
     "electron_shell": [
@@ -3817,8 +3820,14 @@
     ],
     "density": 12,
     "atomic_radius": 173,
-    "boiling": 2880
-  },
+    "boiling": 2880,
+    "color": {"3+": ["粉紅色","#ff69f0"]},
+    "god": ["亞莫烈","亞美勒"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Curium": {
     "boiling": 3383,
     "lv": null,
@@ -3826,32 +3835,9 @@
     "electronegativity": 1.3,
     "atomic_radius": 174,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       581
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "important_on": [
       "+3"
     ],
@@ -3872,8 +3858,14 @@
       9,
       2
     ],
-    "lf": 13.85
-  },
+    "lf": 13.85,
+    "color": {"3+": ["黃色", "#FFFF00"]},
+    "god": ["施里亞","施寧兒"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Berkelium": {
     "melting": 1259,
     "boiling": 2900,
@@ -3887,12 +3879,11 @@
     "important_on": [
       "+3"
     ],
-    "lv": null,
+    "lv": 400,
     "electronegativity": 1.3,
     "density": 14.78,
-    "covalent_radius": null,
+    "covalent_radius": 168,
     "ionization_energies": [
-      1,
       601
     ],
     "lf": 7.92,
@@ -3905,50 +3896,32 @@
       8,
       2
     ],
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": 200,
+    "color": {"3+": ["綠色","#FCC4FF"],"4+": ["黃色", "#FFFF00"]},
+    "god": ["伯柯連","布卡妮"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Californium": {
     "melting": 1173,
     "density": 15.1,
     "boiling": 1743,
     "electronegativity": 1.3,
-    "lv": null,
+    "lv": 350,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
-      608,
-      7
+      608
     ],
-    "van_der_waals_radius": null,
-    "atomic_radius": null,
+    "van_der_waals_radius": 200,
+    "atomic_radius": 186,
     "on": [
       "+2",
       "+3",
       "+4",
       "+5"
     ],
-    "covalent_radius": null,
+    "covalent_radius": 1.68,
     "electron_shell": [
       2,
       8,
@@ -3961,8 +3934,14 @@
     "important_on": [
       "+3"
     ],
-    "lf": null
-  },
+    "lf": null,
+    "color": {"3+": ["綠色", "#FCC4FF"]},
+    "god": ["卡勒法","卡勒方"],
+    "god_sex": ["女","男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Einsteinium": {
     "melting": 1133,
     "on": [
@@ -3971,8 +3950,8 @@
       "+4"
     ],
     "boiling": 1269,
-    "van_der_waals_radius": null,
-    "covalent_radius": null,
+    "van_der_waals_radius": 200,
+    "covalent_radius": 165,
     "electron_shell": [
       2,
       8,
@@ -3985,67 +3964,26 @@
     "lf": null,
     "lv": null,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       619
     ],
     "important_on": [
       "+3"
     ],
     "electronegativity": 1.3,
-    "atomic_radius": null,
-    "density": 8.84
-  },
+    "atomic_radius": 245,
+    "density": 8.84,
+    "color": {"3+": ["淺粉色","#A020F0"]},
+    "god": ["施里亞","施寧兒"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Fermium": {
     "boiling": null,
     "lf": null,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
-      629,
-      2
+      629
     ],
     "covalent_radius": null,
     "important_on": [
@@ -4055,12 +3993,12 @@
       "+2",
       "+3"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "electronegativity": 1.3,
     "melting": 1800,
     "density": 9.7,
     "lv": null,
-    "atomic_radius": null,
+    "atomic_radius": 185,
     "electron_shell": [
       2,
       8,
@@ -4069,12 +4007,18 @@
       30,
       8,
       2
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["法米昴","琺爾莫"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Mendelevium": {
     "melting": 1100,
     "electronegativity": 1.3,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 246,
     "important_on": [
       "+3"
     ],
@@ -4089,20 +4033,24 @@
       8,
       2
     ],
-    "covalent_radius": null,
+    "covalent_radius": 173,
     "boiling": null,
     "ionization_energies": [
-      1,
-      636,
-      2
+      636
     ],
     "on": [
       "+2",
       "+3"
     ],
     "lf": null,
-    "atomic_radius": null
-  },
+    "atomic_radius": null,
+    "color": {},
+    "god": ["閔德烈","瑪得爾"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Nobelium": {
     "melting": 1100,
     "boiling": null,
@@ -4123,58 +4071,34 @@
       "+2",
       "+3"
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 246,
     "ionization_energies": [
-      1,
       639,
-      4,
-      2,
       1254.3,
-      3,
       2605.1
     ],
     "atomic_radius": null,
     "important_on": [
       "+2"
     ],
-    "covalent_radius": null
-  },
+    "covalent_radius": null,
+    "color": {},
+    "god": ["諾保勒"],
+    "god_sex": ["男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Lawrencium": {
     "melting": 1900,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       479,
-      4,
-      2,
       1428,
-      3,
       2219.1
     ],
-    "atomic_radius": null,
+    "atomic_radius": 171,
     "lv": null,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "electron_shell": [
       2,
       8,
@@ -4194,43 +4118,23 @@
     "boiling": null,
     "covalent_radius": null,
     "electronegativity": 1.3,
-    "density": 14.4
-  },
+    "density": 14.4,
+    "color": {},
+    "god": ["羅倫薩"],
+    "god_sex": ["男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Rutherfordium": {
     "melting": 2400,
     "important_on": [
       "+3"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       580,
-      2,
       1390,
-      3,
-      2300,
-      2
+      2300
     ],
     "electronegativity": null,
     "lv": null,
@@ -4244,7 +4148,7 @@
     ],
     "covalent_radius": 157,
     "boiling": 5800,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "electron_shell": [
       2,
       8,
@@ -4253,15 +4157,21 @@
       32,
       10,
       2
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["羅弗爾","盧菲爾"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Dubnium": {
     "boiling": null,
     "electronegativity": null,
     "important_on": [],
     "lv": null,
     "lf": null,
-    "melting": null,
+    "melting": 302.9146,
     "density": 21.6,
     "covalent_radius": 149,
     "on": [
@@ -4271,15 +4181,11 @@
     ],
     "atomic_radius": 139,
     "ionization_energies": [
-      1,
       665,
-      2,
       1547,
-      3,
-      2378,
-      3
+      2378
     ],
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "electron_shell": [
       2,
       8,
@@ -4288,40 +4194,20 @@
       32,
       11,
       2
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["杜百諾"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Seaborgium": {
     "density": 23,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       757,
-      2,
       1733,
-      3,
-      2484,
-      1
+      2484
     ],
     "lv": null,
     "electron_shell": [
@@ -4343,49 +4229,29 @@
     ],
     "electronegativity": null,
     "lf": null,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "boiling": null,
     "important_on": [
       "+4"
     ],
     "melting": null,
-    "atomic_radius": 132
-  },
+    "atomic_radius": 132,
+    "color": {},
+    "god": ["莎伊白"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Bohrium": {
     "melting": null,
     "electronegativity": null,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "lf": null,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       740,
-      2,
       1690,
-      3,
-      2570,
-      2
+      2570
     ],
     "boiling": null,
     "important_on": [
@@ -4411,13 +4277,19 @@
     ],
     "lv": null,
     "density": 26,
-    "atomic_radius": 128
-  },
+    "atomic_radius": 128,
+    "color": {},
+    "god": ["玻莉安"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Hassium": {
     "melting": null,
     "electronegativity": null,
     "atomic_radius": 126,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 200,
     "on": [
       "+2",
       "+3",
@@ -4440,41 +4312,21 @@
       "+4"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       730,
-      2,
       1760,
-      3,
-      2830,
-      11
+      2830
     ],
     "density": 27,
     "boiling": null,
     "lv": null,
-    "lf": null
-  },
+    "lf": null,
+    "color": {},
+    "god": ["夏西婭"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Meitnerium": {
     "density": 27,
     "van_der_waals_radius": null,
@@ -4508,15 +4360,17 @@
       2
     ],
     "ionization_energies": [
-      1,
       800,
-      2,
       1820,
-      3,
-      2900,
-      3
-    ]
-  },
+      2900
+    ],
+    "color": {},
+    "god": ["莫特妮"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Darmstadtium": {
     "density": 26,
     "electron_shell": [
@@ -4549,16 +4403,18 @@
     "melting": null,
     "atomic_radius": 132,
     "ionization_energies": [
-      1,
       960,
-      2,
       1890,
-      3,
-      3030,
-      3
+      3030
     ],
-    "boiling": null
-  },
+    "boiling": null,
+    "color": {},
+    "god": ["達姆索"],
+    "god_sex": ["男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Roentgenium": {
     "van_der_waals_radius": null,
     "electron_shell": [
@@ -4596,8 +4452,14 @@
     "lf": null,
     "atomic_radius": 138,
     "density": 22,
-    "electronegativity": null
-  },
+    "electronegativity": null,
+    "color": {},
+    "god": ["盧塔岡","洛特格"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Copernicium": {
     "atomic_radius": 147,
     "lf": null,
@@ -4611,35 +4473,9 @@
       2
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       1155,
-      2,
       2170,
-      3,
-      3160,
-      1
+      3160
     ],
     "lv": null,
     "boiling": 340,
@@ -4655,18 +4491,28 @@
       "+6:"
     ],
     "covalent_radius": 122,
-    "van_der_waals_radius": null,
+    "van_der_waals_radius": 110,
     "electronegativity": null,
     "density": 14,
-    "melting": 283
-  },
+    "melting": 283,
+    "color": {},
+    "god": ["可柏烈","卡柏妮"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Nihonium": {
     "melting": 700,
     "atomic_radius": 170,
     "density": 16,
     "lf": 7.61,
     "lv": null,
-    "ionization_energies": [],
+    "ionization_energies": [
+      704.9,
+      2240,
+      3020
+    ],
     "van_der_waals_radius": null,
     "on": [
       "−1",
@@ -4689,8 +4535,14 @@
     ],
     "boiling": 1430,
     "electronegativity": null,
-    "covalent_radius": 172
-  },
+    "covalent_radius": 172,
+    "color": {},
+    "god": ["納可尼"],
+    "god_sex": ["男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Flerovium": {
     "atomic_radius": 180,
     "important_on": [
@@ -4714,15 +4566,9 @@
     "van_der_waals_radius": null,
     "melting": 284,
     "ionization_energies": [
-      1,
       832.2,
-      7,
-      2,
       1600,
-      5,
-      3,
-      3370,
-      5
+      3370
     ],
     "on": [
       "0",
@@ -4730,8 +4576,14 @@
       "+2",
       "+4",
       "+6"
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["琺洛魯"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Moscovium": {
     "boiling": 1400,
     "electron_shell": [
@@ -4756,43 +4608,21 @@
     "melting": 670,
     "lf": 5.9,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       538.3,
-      4,
-      2,
       1760,
-      2,
-      3,
-      2650,
-      2
+      2650
     ],
     "on": [
       "+1",
       "+3"
-    ]
-  },
+    ],
+    "color": {},
+    "god": ["莫沙可"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Livermorium": {
     "melting": 637,
     "lv": 42,
@@ -4820,40 +4650,18 @@
     "covalent_radius": 162,
     "electronegativity": null,
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       663.9,
-      5,
-      2,
       1330,
-      3,
-      3,
-      2850,
-      3
+      2850
     ],
-    "van_der_waals_radius": null
-  },
+    "van_der_waals_radius": null,
+    "color": {},
+    "god": ["拉伏姆","莉法閔"],
+    "god_sex": ["男","女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Tennessine": {
     "density": 7.1,
     "van_der_waals_radius": null,
@@ -4864,37 +4672,9 @@
       "+3"
     ],
     "ionization_energies": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      0,
-      1,
       742.9,
-      5,
-      2,
       1435.4,
-      5,
-      3,
-      2161.9,
-      5
+      2161.9
     ],
     "melting": 623,
     "electron_shell": [
@@ -4915,8 +4695,14 @@
       "+5"
     ],
     "electronegativity": null,
-    "lf": null
-  },
+    "lf": null,
+    "color": {},
+    "god": ["塔尼斯"],
+    "god_sex": ["男"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+},
   "Oganesson": {
     "lf": null,
     "atomic_radius": 152,
@@ -4927,12 +4713,8 @@
     "van_der_waals_radius": null,
     "covalent_radius": 157,
     "ionization_energies": [
-      1,
       860,
-      8,
-      2,
-      1560,
-      8
+      1560
     ],
     "electron_shell": [
       2,
@@ -4955,6 +4737,12 @@
       "+4",
       "+6"
     ],
-    "lv": null
-  }
+    "lv": null,
+    "color": {},
+    "god": ["奧格妮"],
+    "god_sex": ["女"],
+    "duty": null,
+    "flame_color": ["未知","#ffffff"],
+    "name": "氫"
+}
 }
