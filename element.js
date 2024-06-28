@@ -1,5 +1,8 @@
-const cheerio = require("cheerio");
-const fs = require("fs");
+var elem_data = null
+require(['fs'], function (fs) {
+  elem_data = JSON.parse(fs.readFileSync('info.json','utf-8'))
+});
+export * as name from "./element.js";
 
 async function obtainData(elem) {
   return fetch(
@@ -13,7 +16,8 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function on(elem, important) {
+require(['cheerio'], function (cheerio) {
+  async function on(elem, important) {
   return new Promise((resolve, reject) => {
     obtainData(elem)
       .then((data) => {
@@ -66,7 +70,7 @@ async function on(elem, important) {
         reject(error);
       });
   });
-}
+}})
 
 async function check_elem(elem,what) {
   return new Promise((resolve, reject) => {
@@ -239,6 +243,18 @@ async function infos_get(elem){
   });
 }
 
+function name_convert(name){
+  for(element in elem_data){
+    if(elem_data[element]["name"] === name){
+      return element
+    }else if(element === name){
+      return elem_data[element]["name"]
+    }
+  }
+}
+
+console.log(name_convert("K"))
+
 // check_elem("Hydrogen","Critical point").then((data) => {
 //   console.log(data)
 // })
@@ -251,33 +267,33 @@ async function infos_get(elem){
 //   (data) => console.log(data)
 // )
 
-(async function element_state(){
-  for(elem of ["Hydrogen","Helium","Lithium","Beryllium","Boron",
-    "Carbon","Nitrogen","Oxygen","Fluorine","Neon","Sodium","Magnesium",
-    "Aluminium","Silicon","Phosphorus","Sulfur","Chlorine","Argon","Potassium",
-    "Calcium","Scandium","Titanium","Vanadium","Chromium","Manganese","Iron",
-    "Cobalt","Nickel","Copper","Zinc","Gallium","Germanium","Arsenic","Selenium",
-    "Bromine","Krypton","Rubidium","Strontium","Yttrium","Zirconium","Niobium",
-    "Molybdenum","Technetium","Ruthenium","Rhodium","Palladium","Silver","Cadmium",
-    "Indium","Tin","Antimony","Tellurium","Iodine","Xenon","Caesium","Barium",
-    "Lanthanum","Cerium","Praseodymium","Neodymium","Promethium","Samarium","Europium",
-    "Gadolinium","Terbium","Dysprosium","Holmium","Erbium","Thulium","Ytterbium","Lutetium",
-    "Hafnium","Tantalum","Tungsten","Rhenium","Osmium","Iridium","Platinum","Gold",
-    "Mercury (element)","Thallium","Lead","Bismuth","Polonium","Astatine","Radon","Francium",
-    "Radium","Actinium","Thorium","Protactinium","Uranium","Neptunium","Plutonium","Americium",
-    "Curium","Berkelium","Californium","Einsteinium","Fermium","Mendelevium","Nobelium",
-    "Lawrencium","Rutherfordium","Dubnium","Seaborgium","Bohrium","Hassium","Meitnerium",
-    "Darmstadtium","Roentgenium","Copernicium","Nihonium","Flerovium","Moscovium","Livermorium",
-    "Tennessine","Oganesson"
-  ]){
-    try {
-      const data = await infos_get(elem);
-      JsonWrite(data, "extra_info");
-    } catch (error) {
-      console.error(error);
-    }
-  }
-})()
+// (async function element_state(){
+//   for(elem of ["Hydrogen","Helium","Lithium","Beryllium","Boron",
+//     "Carbon","Nitrogen","Oxygen","Fluorine","Neon","Sodium","Magnesium",
+//     "Aluminium","Silicon","Phosphorus","Sulfur","Chlorine","Argon","Potassium",
+//     "Calcium","Scandium","Titanium","Vanadium","Chromium","Manganese","Iron",
+//     "Cobalt","Nickel","Copper","Zinc","Gallium","Germanium","Arsenic","Selenium",
+//     "Bromine","Krypton","Rubidium","Strontium","Yttrium","Zirconium","Niobium",
+//     "Molybdenum","Technetium","Ruthenium","Rhodium","Palladium","Silver","Cadmium",
+//     "Indium","Tin","Antimony","Tellurium","Iodine","Xenon","Caesium","Barium",
+//     "Lanthanum","Cerium","Praseodymium","Neodymium","Promethium","Samarium","Europium",
+//     "Gadolinium","Terbium","Dysprosium","Holmium","Erbium","Thulium","Ytterbium","Lutetium",
+//     "Hafnium","Tantalum","Tungsten","Rhenium","Osmium","Iridium","Platinum","Gold",
+//     "Mercury (element)","Thallium","Lead","Bismuth","Polonium","Astatine","Radon","Francium",
+//     "Radium","Actinium","Thorium","Protactinium","Uranium","Neptunium","Plutonium","Americium",
+//     "Curium","Berkelium","Californium","Einsteinium","Fermium","Mendelevium","Nobelium",
+//     "Lawrencium","Rutherfordium","Dubnium","Seaborgium","Bohrium","Hassium","Meitnerium",
+//     "Darmstadtium","Roentgenium","Copernicium","Nihonium","Flerovium","Moscovium","Livermorium",
+//     "Tennessine","Oganesson"
+//   ]){
+//     try {
+//       const data = await infos_get(elem);
+//       JsonWrite(data, "extra_info");
+//     } catch (error) {
+//       console.error(error);
+//     }
+//   }
+// })()
 
 // fetch(
 //   `https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON`
