@@ -50,6 +50,16 @@ body{
     place-items: center;
     align-items: center;
     height: auto;
+    flex-wrap: wrap;
+    border: 100px;
+}
+#another > td > div{
+    padding: 1px;
+    margin-top: 1px;
+}
+#element_another > td > div{
+    padding: 1px;
+    margin-top: 1px;
 }
 #Li,#Na,#K,#Rb,#Cs,#Fr{
     background-color: rgb(255, 62, 62);
@@ -183,6 +193,7 @@ table#element_infos > tr > td{
     place-items: center;
     align-items: center;
     height: auto;
+    flex-wrap: wrap;
 }
 #small_title_4,#small_title_6{
     margin-bottom: 20px
