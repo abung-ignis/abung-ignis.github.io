@@ -61,7 +61,11 @@ function element_info(the_id) {
     } else {
         document.getElementById('element_info_2').innerHTML = `<p class= "infos" id="element_info_2">未知</p>`
     }
-    fill_data(the_id,"density","element_info_3","g/cm³")
+    if(["H","He","N","O","F","Ne","Cl","Ar","Kr","Xe","Rn","Og"].indexOf(the_id) == -1){
+        fill_data(the_id,"density","element_info_3","g/cm³")
+    }else{
+        fill_data(the_id,"density","element_info_3","g/L")
+    }
     fill_data(the_id,"electronegativity","god_info_fourth","")
     fill_data(the_id,"covalent_radius","god_info_fifth","pm")
     fill_data(the_id,"atomic_radius","god_info_sixth","pm")
@@ -88,13 +92,24 @@ function element_info(the_id) {
         let colour = god_info[the_id]['color'][ion]
         //console.log(colour)
         if (colour === undefined) {
-            colour = ["無色"]
+            colour = ["無色","#808080"]
         }
         var div = document.createElement("div")
+        console.log(colour)
+        console.log("colour: " + name.crl(colour[1]))
+        console.log("ion: " + oxidation)
         if (god_info[the_id]['important_on'].indexOf(oxidation) != -1) {
-            div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]}; color: yellow;">${oxidation}</div>`
+            if(name.crl(colour[1]) <= 150){
+                div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]}; color: yellow;">${oxidation}</div>`
+            }else{
+                div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]}; color: blue;">${oxidation}</div>`
+            } 
         } else {
-            div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]};">${oxidation}</div>`
+            if(name.crl(colour[1]) <= 150){
+                div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]};">${oxidation}</div>`
+            }else{
+                div.innerHTML = `<div class="block" id="on" style="background-color: ${colour[1]}; color: black;">${oxidation}</div>`
+            } 
         }
         td.appendChild(div);
         //console.log(div.innerHTML)

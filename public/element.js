@@ -3,7 +3,7 @@
 
 //const elem_data = require('./info.json')
 
-export { name_convert }
+export { name_convert,crl }
 
 // async function obtainData(elem) {
 //   return fetch(
@@ -255,6 +255,17 @@ async function name_convert(name) {
       return elem_data[element]["name"];
     }
   }
+}
+
+function crl(hex) { //caucalate relative luminance
+  const rL = parseInt(hex[1]+hex[2], 16);
+  const gL = parseInt(hex[3]+hex[4], 16);
+  const bL = parseInt(hex[5]+hex[6], 16);
+  console.log(`rsRGB: ${parseInt(hex[1,2], 16)},bsRGB: ${parseInt(hex[1,2], 16)},gsRGB: ${parseInt(hex[1,2], 16)}`)
+
+  const luminance = 0.2126 * rL + 0.7152 * gL + 0.0722 * bL;
+  console.log(`luminance: ${luminance}`)
+  return luminance;
 }
 
 //name_convert("K").then((data) => { console.log(data) });

@@ -350,7 +350,7 @@
     "god": ["諾芬姆"],
     "god_sex": ["女"],
     "duty": "光明之主",
-    "flame_color": ["紅橙色","#ff3300"],
+    "flame_color": ["無","#ffffff"],
     "name": "氖",
     "eng_name": "Neon"
 },
@@ -546,7 +546,7 @@
     "god": ["科茲可"],
     "god_sex": ["女"],
     "duty": "永恆之主",
-    "flame_color": ["淺藍綠色","#ffffff"],
+    "flame_color": ["淺藍綠色","#96ffe7"],
     "name": "磷",
     "eng_name": "Phosphorus"
 },
@@ -953,7 +953,7 @@
     "god": ["阿伊斯","伊絲妲"],
     "god_sex": ["男","女"],
     "duty": null,
-    "flame_color": ["未知","#ffffff"],
+    "flame_color": ["無色","#ffffff"],
     "name": "錳",
     "eng_name": "Manganese"
 },
@@ -1212,7 +1212,7 @@
     "god": ["加里安","伽蘭安"],
     "god_sex": ["男","女"],
     "duty": "腐蝕之主",
-    "flame_color": ["藍色","#1ce68b"],
+    "flame_color": ["藍色","#329ef0"],
     "name": "鎵",
     "eng_name": "Gallium"
 },
@@ -2838,7 +2838,7 @@
       "+2",
       "+3"
     ],
-    "color": {"2+": ["綠色","#FCC4FF"]},
+    "color": {"2+": ["綠色","#2ce85e"]},
     "god": ["戴斯普"],
     "god_sex": ["男"],
     "duty": "數字之主",
@@ -2883,7 +2883,7 @@
     "god_sex": ["男"],
     "duty": "政治之主",
     "flame_color": ["無色","#ffffff"],
-    "name": "鑥",
+    "name": "鎦",
     "eng_name": "Lutetium"
 },
   "Hf": {
@@ -2967,7 +2967,7 @@
     "god": ["泰塔琳"],
     "god_sex": ["女"],
     "duty": "嬰兒之主",
-    "flame_color": ["藍色","#1ce68b"],
+    "flame_color": ["藍色","#329ef0"],
     "name": "鉭",
     "eng_name": "Tantalum"
 },
@@ -3013,7 +3013,7 @@
     "god": ["沃法蘭"],
     "god_sex": ["女"],
     "duty": "深淵之主",
-    "flame_color": ["綠色","#FCC4FF"],
+    "flame_color": ["綠色","#2ce85e"],
     "name": "鎢",
     "eng_name": "Tungsten"
 },
@@ -3344,7 +3344,7 @@
     "god": ["弗洛士"],
     "god_sex": ["男"],
     "duty": "欺暪之主",
-    "flame_color": ["綠色","#FCC4FF"],
+    "flame_color": ["綠色","#2ce85e"],
     "name": "鉈",
     "eng_name": "Thallium"
 },
@@ -3782,7 +3782,7 @@
     ],
     "melting": 1405.3,
     "lv": 417.1,
-    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#FCC4FF"]},
+    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#2ce85e"]},
     "god": ["奧蘭納","烏蘭妮"],
     "god_sex": ["男","女"],
     "duty": "毀滅之主",
@@ -3823,12 +3823,12 @@
     "important_on": [
       "+5"
     ],
-    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#FCC4FF"]},
+    "color": {"3+": ["紫色","#A020F0"],"4+": ["綠色", "#2ce85e"]},
     "god": ["拿柏圖","尼帕特"],
     "god_sex": ["男","女"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "鎿",
+    "name": "錼",
     "eng_name": "Neptunium"
 },
   "Pu": {
@@ -3870,7 +3870,7 @@
     "god_sex": ["男","女"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "鈈",
+    "name": "鈽",
     "eng_name": "Plutonium"
 },
   "Am": {
@@ -3911,7 +3911,7 @@
     "god_sex": ["男","女"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "鎇",
+    "name": "鋂",
     "eng_name": "Americium"
 },
   "Cm": {
@@ -3984,12 +3984,12 @@
       2
     ],
     "van_der_waals_radius": 200,
-    "color": {"3+": ["綠色","#FCC4FF"],"4+": ["黃色", "#FFFF00"]},
+    "color": {"3+": ["綠色","#2ce85e"],"4+": ["黃色", "#FFFF00"]},
     "god": ["伯柯連","布卡妮"],
     "god_sex": ["男","女"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "錇",
+    "name": "鉳",
     "eng_name": "Berkelium"
 },
   "Cf": {
@@ -4023,12 +4023,12 @@
       "+3"
     ],
     "lf": null,
-    "color": {"3+": ["綠色", "#FCC4FF"]},
+    "color": {"3+": ["綠色", "#2ce85e"]},
     "god": ["卡勒法","卡勒方"],
     "god_sex": ["女","男"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "鐦",
+    "name": "鉲",
     "eng_name": "Californium"
 },
   "Es": {
@@ -4066,7 +4066,7 @@
     "god_sex": ["男","女"],
     "duty": null,
     "flame_color": ["未知","#ffffff"],
-    "name": "鎄",
+    "name": "鑀",
     "eng_name": "Einsteinium"
 },
   "Fm": {
@@ -4370,7 +4370,7 @@
       "+3",
       "+4",
       "+5",
-      "+7:"
+      "+7"
     ],
     "lv": null,
     "density": 26,
@@ -4393,7 +4393,7 @@
       "+3",
       "+4",
       "+6",
-      "+8:"
+      "+8"
     ],
     "covalent_radius": 134,
     "electron_shell": [
