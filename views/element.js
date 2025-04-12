@@ -5,17 +5,17 @@
 
 export { name_convert,crl }
 
-// async function obtainData(elem) {
-//   return fetch(
-//     `https://en.wikipedia.org/w/api.php?action=parse&format=json&page=${elem}`
-//   )
-//     .then((response) => response.json())
-//     .then((data) => data.parse);
-// }
+async function obtainData(elem) {
+  return fetch(
+    `https://en.wikipedia.org/w/api.php?action=parse&format=json&page=${elem}`
+  )
+    .then((response) => response.json())
+    .then((data) => data.parse);
+}
 
-// function delay(ms) {
-//   return new Promise(resolve => setTimeout(resolve, ms));
-// }
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 // async function on(elem, important) {
 //   return new Promise((resolve, reject) => {

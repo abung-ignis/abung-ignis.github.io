@@ -2,13 +2,15 @@
     font-family: 'Cubic_11_1.200_R';
     src: url('./font/Cubic_11_1.200_R.ttf');
 }
-body{
+
+body {
     background-color: rgb(15, 15, 15);
-    font-family:'Cubic_11_1.200_R', Times, serif;
+    font-family: 'Cubic_11_1.200_R', Times, serif;
     color: white;
 }
-.block{
-    font-family:'Cubic_11_1.200_R', Times, serif;
+
+.block {
+    font-family: 'Cubic_11_1.200_R', Times, serif;
     color: white;
     background-color: gray;
     width: 50px;
@@ -19,13 +21,16 @@ body{
     float: left;
     font-size: larger;
 }
-#not_wide,#another_not_wide{
+
+#not_wide,
+#another_not_wide {
     width: 50px;
     display: flex;
     align-self: center;
 }
-.text{
-    font-family:'Cubic_11_1.200_R', Times, serif;
+
+.text {
+    font-family: 'Cubic_11_1.200_R', Times, serif;
     color: white;
     background-color: transparent;
     width: 50px;
@@ -37,15 +42,17 @@ body{
     font-size: larger;
     text-align: center;
 }
-#table{
-    display:flex;
+
+#table {
+    display: flex;
     justify-content: center;
     place-items: center;
     height: auto;
     margin-top: 50px;
 }
-#another{
-    display:flex;
+
+#another {
+    display: flex;
     justify-content: left;
     place-items: center;
     align-items: center;
@@ -53,71 +60,192 @@ body{
     flex-wrap: wrap;
     border: 100px;
 }
-#another > td > div{
+
+#another>td>div {
     padding: 1px;
     margin-top: 1px;
 }
-#element_another > td > div{
+
+#element_another>td>div {
     padding: 1px;
     margin-top: 1px;
 }
-#Li,#Na,#K,#Rb,#Cs,#Fr{
+
+#Li,
+#Na,
+#K,
+#Rb,
+#Cs,
+#Fr {
     background-color: rgb(255, 62, 62);
     border: none;
 }
-#Be,#Mg,#Ca,#Sr,#Ba,#Ra{
+
+#Be,
+#Mg,
+#Ca,
+#Sr,
+#Ba,
+#Ra {
     background-color: rgb(255, 123, 62);
     border: none;
 }
-#He,#Ne,#Ar,#Kr,#Xe,#Rn,#Og{
+
+#He,
+#Ne,
+#Ar,
+#Kr,
+#Xe,
+#Rn,
+#Og {
     background-color: rgb(62, 91, 255);
     border: none;
 }
-#Sc,#Ti,#V,#Cr,#Mn,#Fe,#Co,#Y,#Zr,#Nb,#Mo,#Tc,#Ru,#Rh,
-#Pd,#Ag,#Cd,#Hf,#Ta,#W,#Re,#Os,#Ir,#Pt,#Au,#Hg,#Rf,#Db,
-#Sg,#Bh,#Hs,#Mt,#Ds,#Rg,#Cn,#Ni,#Cu,#Zn{
+
+#Sc,
+#Ti,
+#V,
+#Cr,
+#Mn,
+#Fe,
+#Co,
+#Y,
+#Zr,
+#Nb,
+#Mo,
+#Tc,
+#Ru,
+#Rh,
+#Pd,
+#Ag,
+#Cd,
+#Hf,
+#Ta,
+#W,
+#Re,
+#Os,
+#Ir,
+#Pt,
+#Au,
+#Hg,
+#Rf,
+#Db,
+#Sg,
+#Bh,
+#Hs,
+#Mt,
+#Ds,
+#Rg,
+#Cn,
+#Ni,
+#Cu,
+#Zn {
     background-color: rgb(255, 62, 126);
     border: none;
 }
-#H,#C,#N,#O,#P,#S,#Se{
+
+#H,
+#C,
+#N,
+#O,
+#P,
+#S,
+#Se {
     background-color: rgb(255, 204, 62);
     border: none;
     color: rgb(15, 15, 15);
 }
-#F,#Cl,#Br,#I{
+
+#F,
+#Cl,
+#Br,
+#I {
     background-color: rgb(62, 255, 126);
     border: none;
     color: rgb(15, 15, 15);
 }
-#B,#Si,#Ge,#As,#Sb,#Te,#At,#Ts{
+
+#B,
+#Si,
+#Ge,
+#As,
+#Sb,
+#Te,
+#At,
+#Ts {
     background-color: rgb(62, 255, 245);
     border: none;
     color: rgb(15, 15, 15);
 }
-#Al,#Ga,#In,#Sn,#Tl,#Pb,#Bi,#Po,#Fl,#Nh,#Mc,#Lv{
+
+#Al,
+#Ga,
+#In,
+#Sn,
+#Tl,
+#Pb,
+#Bi,
+#Po,
+#Fl,
+#Nh,
+#Mc,
+#Lv {
     background-color: rgb(113, 62, 255);
     border: none;
 }
-#La,#Ce,#Pr,#Nd,#Pm,#Sm,#Eu,#Gd,#Tb,#Dy,#Ho,#Er,#Tm,#Yb,#Lu{
+
+#La,
+#Ce,
+#Pr,
+#Nd,
+#Pm,
+#Sm,
+#Eu,
+#Gd,
+#Tb,
+#Dy,
+#Ho,
+#Er,
+#Tm,
+#Yb,
+#Lu {
     background-color: rgb(62, 194, 255);
     border: none;
     color: rgb(15, 15, 15);
 }
-#Ac,#Th,#Pa,#U,#Np,#Pu,#Am,#Cm,#Bk,#Cf,#Es,#Fm,#Md,#No,#Lr{
+
+#Ac,
+#Th,
+#Pa,
+#U,
+#Np,
+#Pu,
+#Am,
+#Cm,
+#Bk,
+#Cf,
+#Es,
+#Fm,
+#Md,
+#No,
+#Lr {
     background-color: rgb(203, 255, 120);
     border: none;
     color: rgb(15, 15, 15);
 }
-.periodic > tr{
+
+.periodic>tr {
     width: 500px;
     white-space: 10;
 }
+
 tr::after {
     content: "";
     display: table;
     clear: both;
 }
-#header{
+
+#header {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -125,11 +253,13 @@ tr::after {
     flex-direction: column;
     height: 150px
 }
-#title{
+
+#title {
     font-size: 50px;
     margin: 0%;
 }
-#second_info{
+
+#second_info {
     height: 100%;
     width: 25%;
     text-align: left;
@@ -140,7 +270,8 @@ tr::after {
     margin-left: 1%;
     margin-right: 1%;
 }
-#first_info{
+
+#first_info {
     height: 100%;
     width: 23%;
     text-align: left;
@@ -151,7 +282,8 @@ tr::after {
     margin-left: 1%;
     margin-right: 1%;
 }
-#display_block{
+
+#display_block {
     height: 200px;
     width: 200px;
     background-color: none;
@@ -161,40 +293,49 @@ tr::after {
     flex-direction: column;
     justify-content: center;
     place-items: center;
-    color:rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
 }
-#little_title{
+
+#little_title {
     font-size: 60px;
     margin: 0;
 }
-#little_subtitle{
+
+#little_subtitle {
     font-size: 30px;
     margin: 0;
 }
-.small_title{
+
+.small_title {
     font-size: 35px;
     text-align: center;
     margin-bottom: 0%;
     text-align: center;
     width: auto
 }
-.infos{
+
+.infos {
     align-self: center;
     text-align: center;
 }
-table#element_infos > tr > td{
+
+table#element_infos>tr>td {
     display: inline;
     width: 100px;
     text-align: left;
 }
-#element_another,#another{
-    display:flex;
+
+#element_another,
+#another {
+    display: flex;
     justify-content: center;
     place-items: center;
     align-items: center;
     height: auto;
     flex-wrap: wrap;
 }
-#small_title_4,#small_title_6{
+
+#small_title_4,
+#small_title_6 {
     margin-bottom: 20px
 }
